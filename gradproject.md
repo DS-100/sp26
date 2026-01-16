@@ -4,8 +4,8 @@ title: Graduate Project
 nav_exclude: true
 description: Specifications for the grad project for Data 200.
 markdown: kramdown
-
 ---
+
 # Graduate Project
 {:.no_toc}
 

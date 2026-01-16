@@ -13,10 +13,23 @@
 # link overrides the default link to the discussion page from the collection if 
 # you provided a slug or provides an external link
 discussions:
-  - title: Discussion 0
-    link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
-  - slug: disc01
-  - title: Discussion 2
+  - skip: true # no discussion week 1
+  - title: "Prerequisites"
+  - title: "Pandas I"
+  - title: "Pandas II, EDA"
+  - title: "Regex, Visualization, and Transformation"
+  - title: "Probability, Sampling, and Visualization"
+  - title: "Modeling and OLS"
+  - title: "Gradient Descent"
+  - title: "Feature Engineering, Housing"
+  - title: "Spring Break"
+    nonumber: true
+  - title: "Criss-Validation and Regularization"
+  - title: "RVs, Bias, and Variance"
+  - title: "SQL"
+  - title: "Logistic Regression"
   - skip: true
-  - title: Discussion 3
-  - title: Discussion 4
+  - title: "RRR Week"
+    nonumber: true
+  - title: Finals Week
+    nonumber: true

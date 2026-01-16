@@ -1,11 +1,15 @@
 ---
 layout: calendar_dynamic
-title: Calendar (Dynamic)
+title: Calendar
 description: Lecture, Discussion and OH schedules
 nav_order: 3
 ---
 
-# Calendar (Dynamic)
+# Calendar
+
+Check back soon to see the course calendar!
+
+<!-- # Calendar (Dynamic)
 Use this calendar if you want to integrate your class's Google Calendar into the website. 
 
 ## Directions
@@ -37,4 +41,4 @@ Note: The above directions are based loosely on [this](https://fullcalendar.io/d
 
 
 <!-- This page must include an element with a #full-calendar id -->
-<div id="full-calendar" style="width: 100%"></div>
+<div id="full-calendar" style="width: 100%"></div> -->

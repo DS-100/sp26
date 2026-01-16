@@ -13,10 +13,23 @@
 # link overrides the default link to the lab page from the collection if 
 # you provided a slug or provides an external link
 labs:
-  - slug: lab01
-  - title: Lab 2
-    link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
-  - title: Lab 3
+  - skip: true # lab 1 on syllabus.yml to shift to W release
+  - title: "Lab 2A: Pandas"
+  - title: "Lab 2B: Data Cleaning, EDA"
+  - title: "Lab 3: Regex, EDA"
+  - title: "Lab 4: Tranformations"
+  - title: "Lab 5: Modeling, Summary Statistics, Loss Functions, and OLS"
   - skip: true
-  - title: Lab 4
-  - title: Lab 5
+  - title: "Lab 6: Gradient Descent, sklearn"
+  - title: "Lab 7: Model Selection"
+  - title: "Spring Break"
+    nonumber: true
+  - title: "Lab 8: Probability"
+  - title: "Lab 9: SQL"
+  - title: "Lab 10: Logistic Regression"
+  - title: "Lab 11: PCA and Clustering"
+  # - skip: true
+  # - title: "RRR Week"
+  #   nonumber: true
+  # - title: "Finals Week"
+  #   nonumber: true

@@ -1,8 +1,7 @@
 ---
-name: Ella Hammond
-role: UCS2
+name: Eli Hammond
+role: TA
 email: ellahammond@berkeley.edu
-photo: Ella_Hammond.jpg
+photo: Eli_Hammond.jpg
 pronouns: Any Pronouns
 ---
-Hi everyone! I'm a senior studying Computer Science. This is my first semester as a TA. Looking forward to a good semester!

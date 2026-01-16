@@ -13,11 +13,17 @@
 # link overrides the default link to the homework page from the collection if 
 # you provided a slug or provides an external link
 homework:
-  - slug: hw01
-  - title: Homework 2
-    link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
-  - title: Homework 3
+  - skip: true # hw 1 on syllabus.yml to shift to W release
+  - title: "Homework 2A: Food Safety I"
+  - title: "Homework 2A: Food Safety II"
+  - title: "Homework 3: NYT Articles"
+  - title: "Homework 4: Bike Sharing"
+  - title: "Homework 5: Modeling and OLS"
   - skip: true
-  - title: Homework 4
-  - title: Homework 5
-  - title: Homework 6
+  - skip: true # proj A1
+  - skip: true # proj A2
+  - skip: true # spring break
+  - title: "Homework 6: Probability"
+  - title: "Homework 7: SQL"
+  - skip: true # proj B1
+  - skip: true # proj B2

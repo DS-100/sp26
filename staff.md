@@ -2,12 +2,14 @@
 layout: page
 title: Staff
 description: A listing of all the course staff members.
-nav_order: 4
+nav_order: 5
 ---
 
 # Staff
 
-To learn how this page works, see the [documentation]({% link docs/collections/staff.md %}).
+{: .important }
+> Contact course staff **via Ed** with any questions or concerns. For sensitive matters, the staff email address [{{ site.course_email }}](mailto: {{ site.course_email }}) is monitored by the instructors and a few lead TAs.
+
 
 ## Instructors
 
@@ -26,7 +28,7 @@ To learn how this page works, see the [documentation]({% link docs/collections/s
 {% endfor %}
 {% endif %}
 
-{% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
+{% assign teaching_assistants = site.staffers | where: 'role', 'TA' %}
 {% assign num_teaching_assistants = teaching_assistants | size %}
 {% if num_teaching_assistants != 0 %}
 ## Teaching Assistants

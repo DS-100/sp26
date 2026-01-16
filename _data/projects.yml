@@ -4,7 +4,16 @@
 # label number is optional. You can make this 
 # 1, 2, 3, etc. or A, B, C, etc. or whatever you want
 projects:
-  - title: "Project 1: Panda Bears"
-    date: 2026-01-30
-    link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
-    label-number: 1
+  - title: "Housing I"
+    date: 2026-03-12
+    # link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
+    label-number: A1
+  - title: "Housing II"
+    date: 2026-03-19
+    label-number: A2
+  - title: "Spam & Ham I"
+    date: 2026-04-16
+    label-number: B1
+  - title: "Spam & Ham II"
+    date: 2026-04-23
+    label-number: B2

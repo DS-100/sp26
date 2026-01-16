@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acknowledgments
-nav_order: 10
+nav_order: 6
 description: >-
     Principles and Techniques of Data Science
 markdown: kramdown
