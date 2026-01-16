@@ -20,7 +20,7 @@ description: "UC Berkeley Data 100: Principles and Techniques of Data Science"
 author: Data 100 Staff
 
 baseurl: '/sp26' # the subpath of your site, which should just be the semester.
-url: 'https://DS-100.org' # the hostname & protocol for your site, e.g. http://example.com
+url: 'https://ds100.org' # the hostname & protocol for your site, e.g. http://example.com
 
 # Course variables
 # Course variables can appear in various places around the website, if something isn't used leave it blank.
