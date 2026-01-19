@@ -25,7 +25,7 @@ url: 'https://ds100.org' # the hostname & protocol for your site, e.g. http://ex
 # Course variables
 # Course variables can appear in various places around the website, if something isn't used leave it blank.
 course: Data 100
-course_email: tructors@berkeley.edu 
+course_email: data100.instructors@berkeley.edu 
 comms_email: data100.support@berkeley.edu
 gradescope_course_id: 123456 
 bcourses_course_id: 1551658 
