@@ -12,11 +12,11 @@ seo:
 UC Berkeley, Spring 2026
 {: .mb-0 .fs-6 .text-grey-dk-000 }
 
-[Datahub](http://data100.datahub.berkeley.edu/){:target="_blank" .btn .btn-datahub .mr-1 }
+[DataHub](http://data100.datahub.berkeley.edu/){:target="_blank" .btn .btn-datahub .mr-1 }
 [Pensieve](https://www.pensieve.co/){:target="_blank" .btn .btn-pensieve .mr-1 }
-[Ed](https://edstem.org/us/){:target="_blank" .btn .btn-ed .mr-1 }
-<!-- [Office Hours Queue](https://oh.ds100.org/){:target="_blank" .btn .btn-oh .mr-1}
-[Lectures Playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfpYJrF6mUXwC8zH1Sby_Sq_&feature=shared){:target="_blank" .btn .btn-youtube .mr-1} -->
+[EdStem](https://edstem.org/us/){:target="_blank" .btn .btn-ed .mr-1 }
+[Office Hours](https://oh.ds100.org/){:target="_blank" .btn .btn-officehours .mr-1}
+[Lectures Playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfopoa1txbWmAOIrZyx0XoZ7){:target="_blank" .btn .btn-lectures .mr-1}
 
 
 <!-- Uncomment if you'd like to use announcements!

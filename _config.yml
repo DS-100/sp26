@@ -39,17 +39,34 @@ class_archive_path: /
 
 favicon_ico: "assets/branding/favicon.ico"
 
+nav_external_links:
+  - title: Course Notes
+    url: https://ds100.org/course-notes/
+    hide_icon: true
+    aria_label: "Data 100 Course Notes"
+  - title: Debugging Guide
+    url: https://ds100.org/debugging-guide/
+    hide_icon: true
+    aria_label: "Data 100 Debugging Guide"
+  - title: Course FAQs
+    url: https://ds100.org/faqs/fa25/
+    hide_icon: true
+
 aux_links:
-  DataHub: 
-    - 'http://data100.datahub.berkeley.edu/'
-  Debugging Guide:
-    - 'https://ds100.org/debugging-guide/'
-  Course Notes:
-    - 'https://ds100.org/course-notes/'
-  Ed:
-    - 'https://edstem.org'
-  Pensieve:
-    - 'https://www.pensieve.co/'
+  Additional Accommodations Form: 
+    - '' # TODO: Add link to Additional Accommodations Form
+  Autograded Assignment Regrade Requests Form: 
+    - 'https://forms.gle/br8ShTbU7HWw1ooQ9'
+  # DataHub: 
+  #   - 'http://data100.datahub.berkeley.edu/'
+  # Debugging Guide:
+  #   - 'https://ds100.org/debugging-guide/'
+  # Course Notes:
+  #   - 'https://ds100.org/course-notes/'
+  # Ed:
+  #   - 'https://edstem.org'
+  # Pensieve:
+  #   - 'https://www.pensieve.co/'
 
 # TODO(template): These need to be documented
 # TODO(semester): You may want to review these...
