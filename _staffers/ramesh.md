@@ -6,3 +6,4 @@ website:
 photo: ramesh.jpg
 pronouns: He/Him/His
 ---
+ramesh_s AT berkeley DOT edu
