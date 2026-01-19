@@ -6,4 +6,4 @@ photo: Henry_Hong.png
 pronouns: He/Him/His
 website: https://henryyhong.github.io/
 ---
-Hey I'm Henry, a junior doubling in Computer Science and Cognitive Science and this is my second semester on course staff. Looking forward to seeing you all!
+Hey! My name is Henry and a junior doubling in CS and Cogsci and minoring in DS. This is my third semester on staff, and I enjoy playing the saxophone, exploring museums, and reading.
