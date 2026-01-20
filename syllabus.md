@@ -154,7 +154,7 @@ Course Communication:
     - Ed is your primary platform for asking questions about the class. It is monitored daily by course staff, so questions posted to Ed will likely receive the fastest response.
 
 - For sensitive questions: our course staff email is [{{ site.course_email }}](mailto:{{ site.course_email }}). This email is monitored by the instructors, the head TAs, and a few lead TAs.
-- For course accomodations/DSP: student accommodation requests will be handled via the [Additional Accommodations Form](){:target="_blank"}. Our staff email for student support and DSP accommodations is [data100.support@berkeley.edu]((mailto:{{ site.comms_email }})).
+- For course accomodations/DSP: student accommodation requests will be handled via the [Additional Accommodations Form](https://docs.google.com/forms/d/e/1FAIpQLSe67DuhYNwPyxrlDOSO-zGv_ViYxQuIj8-GScpfrCGTYfuq3A/viewform?usp=header){:target="_blank"}. Our staff email for student support and DSP accommodations is [data100.support@berkeley.edu]((mailto:{{ site.comms_email }})).
     - Please only contact the course instructors directly for matters that require strict privacy and their personal attention.
 
 
@@ -182,7 +182,7 @@ Course Communication:
 
 It is your responsibility to know if you are enrolled in Data 100 or Data 200 or Data 200S.
 
-While we do not have homework drops this semester, we will offer slip days for homeworks/projects, as well as an [Additional Accommodations Form](){:target="_blank"}. See the next sections for more details.
+While we do not have homework drops this semester, we will offer slip days for homeworks/projects, as well as an [Additional Accommodations Form](https://docs.google.com/forms/d/e/1FAIpQLSe67DuhYNwPyxrlDOSO-zGv_ViYxQuIj8-GScpfrCGTYfuq3A/viewform?usp=header){:target="_blank"}. See the next sections for more details.
 
 
 ### On-Time Submission
@@ -204,9 +204,9 @@ Slip days are automatically applied based on the additional hours you take to su
 
 We recognize that our students come from varied backgrounds and have widely-varying experiences. If you require any additional accommodations any time in the semester, please do not hesitate to let us know. The sooner we are made aware, the more options we have available for us to help you.
 
-The **[Additional Accommodations Form](){:target="_blank"}** is for any circumstances that cannot be resolved via slip days and drops. Within two business days of filling out the form, a member of course staff will reach out to you and provide a space for conversation, as well as to arrange course/grading accommodations as necessary. For more information, please email [data100.support@berkeley.edu](mailto:data100.support@berkeley.edu). 
+The **[Additional Accommodations Form](https://docs.google.com/forms/d/e/1FAIpQLSe67DuhYNwPyxrlDOSO-zGv_ViYxQuIj8-GScpfrCGTYfuq3A/viewform?usp=header){:target="_blank"}** is for any circumstances that cannot be resolved via slip days and drops. Within two business days of filling out the form, a member of course staff will reach out to you and provide a space for conversation, as well as to arrange course/grading accommodations as necessary. For more information, please email [data100.support@berkeley.edu](mailto:data100.support@berkeley.edu). 
 
-We recognize that at times, it can be difficult to manage your course performance - particularly at Berkeley’s high standards. Sometimes emergencies just come up (personal health emergency, family emergency, etc.). The [Additional Accommodations Form](){:target="_blank"} is meant to lower the barrier to reaching out to us, as well as build your independence in managing your academic career long-term. So please do not hesitate to reach out.
+We recognize that at times, it can be difficult to manage your course performance - particularly at Berkeley’s high standards. Sometimes emergencies just come up (personal health emergency, family emergency, etc.). The [Additional Accommodations Form](https://docs.google.com/forms/d/e/1FAIpQLSe67DuhYNwPyxrlDOSO-zGv_ViYxQuIj8-GScpfrCGTYfuq3A/viewform?usp=header){:target="_blank"} is meant to lower the barrier to reaching out to us, as well as build your independence in managing your academic career long-term. So please do not hesitate to reach out.
 
 Note that you **cannot** use the Additional Accommodations Form if you encounter a logistical oversight, such as DataHub/autograder tests not passing, submitting only one portion of the homework, forgetting to save your notebook before exporting, submitting to the wrong assignment portal, or not properly tagging pages on the grading portal. It is the students’ responsibility to identify and resolve these issues well in advance of the on-time deadline. 
 We will not grant accommodations for these cases; instead, please use slip days to cushion these submission errors.
@@ -218,7 +218,7 @@ Finally, simply submitting a request does not guarantee you will receive an exte
 
 {: .important }
 
-If you are registered with the Disabled Students’ Program (DSP) you can expect to receive an email from us during the first week of classes. Otherwise, email [data100.support@berkeley.edu](mailto:data100.support@berkeley.edu). DSP students who receive approved extension accommodations will have an automatic 2-day extension on labs, homeworks, and projects. Please note that any extension, plus the slip days combined, cannot exceed **7 days**. Beyond 7 days, you are required to meet with a TA. DSP students can use the **[Additional Accommodations Form](){:target="_blank"}** to request extension accommodations beyond the provided 2-days.
+If you are registered with the Disabled Students’ Program (DSP) you can expect to receive an email from us during the first week of classes. Otherwise, email [data100.support@berkeley.edu](mailto:data100.support@berkeley.edu). DSP students who receive approved extension accommodations will have an automatic 2-day extension on labs, homeworks, and projects. Please note that any extension, plus the slip days combined, cannot exceed **7 days**. Beyond 7 days, you are required to meet with a TA. DSP students can use the **[Additional Accommodations Form](https://docs.google.com/forms/d/e/1FAIpQLSe67DuhYNwPyxrlDOSO-zGv_ViYxQuIj8-GScpfrCGTYfuq3A/viewform?usp=header){:target="_blank"}** to request extension accommodations beyond the provided 2-days.
 
 You are responsible for reasonable communication with course staff. If you make a request close to the deadline, we can not guarantee that you will receive a response before the deadline. Additionally, simply submitting a request does not guarantee you will receive an extension. **Even if your work is incomplete, please submit before the deadline so you can receive work for the work you did complete.**
 
