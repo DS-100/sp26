@@ -18,7 +18,7 @@ UC Berkeley, Spring 2026
 [Office Hours](https://oh.ds100.org/){:target="_blank" .btn .btn-officehours .mr-1}
 [Zoom](https://berkeley.zoom.us/j/91466186973){:target="_blank" .btn .btn-zoom .mr-1}
 [Askademia Lecture Recordings](https://www.askademia.org/ds100/sp26){:target="_blank" .btn .btn-lectures .mr-1}
-[YouTube Lecture Recordings](https://www.youtube.com/playlist?list=PLQCcNQgUcDfopoa1txbWmAOIrZyx0XoZ7){:target="_blank" .btn .btn-lectures .mr-1}
+[YouTube Lecture Recordings](https://www.youtube.com/playlist?list=PLQCcNQgUcDfopoa1txbWmAOIrZyx0XoZ7){:target="_blank" .btn .btn-youtube .mr-1}
 
 <!-- Commented out due to accessibility issues -->
 <!-- <div>
