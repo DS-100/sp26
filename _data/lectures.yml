@@ -20,6 +20,9 @@
 
 lectures:
   - slug: "01"
+    readings:
+      - title: Note 1
+        link: https://ds100.org/course-notes/introduction/
   - slug: "02"
   - slug: "03"
   - slug: "04"
