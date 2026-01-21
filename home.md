@@ -9,7 +9,7 @@ seo:
 ---
 
 # Data 100: Principles and Techniques of Data Science
-## UC Berkeley, Fall 2025 
+## UC Berkeley, Spring 2026 
 {: .mb-2 .fs-6 .text-grey-dk-000 style="margin-top: 0;"  }
 
 [DataHub](http://data100.datahub.berkeley.edu/){:target="_blank" .btn .btn-datahub .mr-1 }
