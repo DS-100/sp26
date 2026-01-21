@@ -32,3 +32,8 @@
 .btn-currentweek{
   @include btn-color($white, #355F41);
 }
+
+#schedule .btn-currentweek {
+  font-size: 1rem;
+  margin-left: 1rem;
+}

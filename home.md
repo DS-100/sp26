@@ -37,7 +37,7 @@ seo:
 
 <h2 class="d-flex align-items-center" id="schedule">
   Schedule
-  <a href="#week-{{ site.current_week }}" class="btn btn-currentweek" style="font-size: 1rem; margin-left: 1rem;">
+  <a href="#week-{{ site.current_week }}" class="btn btn-currentweek">
     Jump to Current Week
   </a>
 </h2>
