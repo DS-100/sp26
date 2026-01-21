@@ -1,0 +1,4 @@
+# treat this YAML similar to _data/homework.yml
+labs-due:
+  - skip: true
+  - title: "Lab 1: Prerequisite Coding"

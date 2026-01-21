@@ -53,6 +53,7 @@ extra_days_col2:
 class_days: ['2', '4']
 discussion_days: ['3']
 lab_days: ['4']
+lab_due_days: ['2']
 hw_days: ['4']
 hw_due_days: ['5']
 
