@@ -136,10 +136,6 @@ div.highlighter-rouge div.highlight {
     @include btn-color($white, #009d9a);
   }
 
-  .btn-youtube{
-    @include btn-color($white, #444444);
-  }
-
 @if $color-scheme == dark {
   @include dark-mode-overrides;
 }

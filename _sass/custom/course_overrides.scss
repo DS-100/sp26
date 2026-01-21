@@ -25,6 +25,10 @@
   min-width: 200px;    /* Optional: ensures cards don't get too squashed */
 }
 
+.btn-youtube{
+  @include btn-color($white, #444444);
+}
+
 .btn-currentweek{
   @include btn-color($white, #355F41);
 }
