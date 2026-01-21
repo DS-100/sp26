@@ -6,7 +6,7 @@
 }
 
 /* Ensure table links meet WCAG 2.2 Target Size (24px) */
-table td a {
+table td a a11y-spacing-table {
     display: inline-block;
     padding: 4px 2px;
     min-height: 24px;

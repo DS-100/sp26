@@ -63,7 +63,7 @@ You can also review [Exam Questions by Topic here.](https://docs.google.com/docu
 | **Spring 2018** | [Exam]({{ "/assets/exams/sp18/sp18midterm.pdf" | relative_url }}) [(Solutions)]({{ "/assets/exams/sp18/sp18midtermsol.pdf" | relative_url }}) | | | [Exam]({{ "/assets/exams/sp18/sp18final.pdf" | relative_url }}) [(Solutions)]({{ "/assets/exams/sp18/sp18finalsol.pdf" | relative_url }}) [[Walkthrough]](https://www.youtube.com/watch?v=5JU0Xe46DnA&list=PLQCcNQgUcDfrBO7dpL-Pv6e0LYGeqsHKr) | |
 | **Fall 2017** | [Exam]({{ "/assets/exams/fa17/fa17midterm.pdf" | relative_url }}) [(Solutions)]({{ "/assets/exams/fa17/fa17midtermsol.pdf" | relative_url }}) [[Walkthrough]](https://www.youtube.com/watch?v=uYS4ZBB0aZU&list=PLQCcNQgUcDfqAD1D9g9P9SUYo0tdXQpSY) | | | [Exam]({{ "/assets/exams/fa17/fa17final.pdf" | relative_url }}) [(Solutions)]({{ "/assets/exams/fa17/fa17finalsol.pdf" | relative_url }}) | |
 | **Spring 2017** | [Exam]({{ "/assets/exams/sp17/sp17midterm.pdf" | relative_url }}) [(Solutions)]({{ "/assets/exams/sp17/sp17midtermsol.pdf" | relative_url }}) | | | [Exam]({{ "/assets/exams/sp17/sp17final.pdf" | relative_url }}) [(Solutions)]({{ "/assets/exams/sp17/sp17finalsol.pdf" | relative_url }}) | |
-
+{: .a11y-spacing-table}
 
 <a name = 'course_website'></a>
 ## Course Website
