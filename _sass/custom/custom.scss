@@ -44,7 +44,12 @@ div.highlighter-rouge div.highlight {
       background-color: #ff7eb6;
       color: black;
     }
-    &.label-lab {
+    &.label-lab-released {
+      background-color: transparent;
+      color: $lab-rel;
+      box-shadow: inset 0 0 0 2px #ffafd2;
+    }
+    &.label-lab-due {
       background-color: #ffafd2;
       color: black;
     }
