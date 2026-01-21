@@ -37,7 +37,7 @@ course_logo_path: assets/branding/panda-logo.png
 course_department: dsus
 class_archive_path: /
 
-favicon_ico: "assets/branding/favicon.ico"
+favicon_ico: "/assets/branding/favicon.ico"
 
 nav_external_links:
   - title: Course Notes
