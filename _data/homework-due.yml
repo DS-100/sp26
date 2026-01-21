@@ -1,0 +1,4 @@
+# treat this YAML similar to _data/homework.yml
+homework-due:
+  - skip: true
+  - title: "Homework 1: Prerequisite Math"

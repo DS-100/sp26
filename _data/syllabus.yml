@@ -28,7 +28,7 @@ extra_days_col2:
     link: https://data100.datahub.berkeley.edu/
   - date: 2026-01-21
     title: "Homework 1: Prerequisite Math"
-    label: homework
+    label: homework-released
   - date: 2026-04-27
     title: "PCA and Clustering (Recorded)"
     label: discussion
@@ -49,6 +49,7 @@ class_days: ['2', '4']
 discussion_days: ['3']
 lab_days: ['4']
 hw_days: ['4']
+hw_due_days: ['5']
 
 # Where should we start automatically numbering each course component?
 # For example, if you set starting_homework_number to 0, then the first homework
