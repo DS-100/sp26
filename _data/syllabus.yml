@@ -25,7 +25,7 @@ extra_days_col2:
   - date: 2026-01-21
     title: "Lab 1: Prerequisite Coding"
     label: lab
-    link: https://data100.datahub.berkeley.edu/
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab01%2Flab01.ipynb
   - date: 2026-01-21
     title: "Homework 1: Prerequisite Math"
     label: homework-released
