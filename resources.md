@@ -15,7 +15,7 @@ Jump to:
 {:toc}
 
 ## Reference Sheet
-Here were Fall 2025's reference sheets for [Midterm 1](assets/exams/fa25/fa25_mt1_reference_sheet.pdf), [Midterm 2](assets/exams/fa25/fa25_mt2_reference_sheet.pdf), and [Final](assets\exams\fa25\fa25_final_reference_sheet.pdf).
+Here were Fall 2025's reference sheets for [Midterm 1]({{ "/assets/exams/fa25/fa25_mt1_reference_sheet.pdf" | relative_url }}), [Midterm 2]({{ "/assets/exams/fa25/fa25_mt2_reference_sheet.pdf" | relative_url }}), and [Final]({{ "/assets/exams/fa25/fa25_final_reference_sheet.pdf" | relative_url }}).
 
 
 ## Supplementary Course Notes
