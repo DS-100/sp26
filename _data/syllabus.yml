@@ -41,8 +41,10 @@ extra_days_col2:
 
 # The dates used in extra_links_col3 below must already be included on the calendar 
 # Use this to provide extra links in the third (reading) column
-# extra_links_col3:
-#   - date: 2026-01-23
+extra_links_col3:
+  - date: 2026-01-28
+    title: Mini-Lecture
+    link: https://youtu.be/qXR-x19KT5w
 #     title: Solutions
 #     link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
 
