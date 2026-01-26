@@ -40,7 +40,7 @@ class_archive_path: /
 favicon_ico: "/assets/branding/favicon.ico"
 
 # Update each week for "Jump to Current Week" button
-current_week: 1
+current_week: 2
 
 nav_external_links:
   - title: Course Notes
