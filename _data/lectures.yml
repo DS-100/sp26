@@ -21,13 +21,16 @@
 lectures:
   - slug: "01"
     readings:
-      - title: Note 1
+      - title: Note 1 (Fall 2025)
         link: https://ds100.org/course-notes/introduction/
   - slug: "02"
     readings:
-      - title: Note 2
+      - title: Note 2 (Fall 2025)
         link: https://ds100.org/course-notes/pandas-1/
   - slug: "03"
+    readings:
+      - title: Note 3 (Fall 2025)
+        link: https://ds100.org/course-notes/pandas-2/
   - slug: "04"
   - slug: "05"
   - slug: "06"
