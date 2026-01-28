@@ -101,7 +101,11 @@
                 {%- if extra.label and extra.label != "none" -%}
                     <strong class="label label-{{ extra.label }}">
                     {%- assign label_parts = extra.label | split: "-" -%}
-                    {{ label_parts[0] | capitalize }}
+                    {%- if extra.label == "exam-review" -%}
+                      Exam Review
+                    {%- else -%}
+                      {{ label_parts[0] | capitalize }}
+                    {%- endif -%}
                     </strong>
                 {%- endif -%}
 

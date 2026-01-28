@@ -18,15 +18,15 @@ catch_up:
   - title: "Catch-Up"
   - title: "Catch-Up"
   - title: "Catch-Up"
-  - title: "Catch-Up" # will be mt1 review
+  - skip: true #  mt1 review
   - skip: true # mt1
   - title: "Catch-Up"
   - title: "Spring Break" # spring break
     nonumber: true
-  - title: "Catch-Up" # will be mt2 review
+  - skip: true # mt2 review
   - skip: true # mt2
   - title: "Catch-Up"
-  - title: "Catch-Up" # will be mt3 review
+  - skip: true # mt3 review
   - skip: true # mt3
   - title: "RRR Week" # rrr week
     nonumber: true

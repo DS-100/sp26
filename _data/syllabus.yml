@@ -10,12 +10,21 @@ end_date: 2026-05-15
 # Any other days you want to appear on the calendar (e.g. for one-time events
 # like exams or bonus lectures) can be listed here. These appear in the second column.
 extra_days_col2:
+  - date: 2026-03-06
+    title: "Midterm 1 Review"
+    label: exam-review
   - date: 2026-03-09
     title: "Midterm 1 (<a href=\"./syllabus/#exams\">CBTF</a>, Monday-Thursday)"
     label: exam
+  - date: 2026-04-03
+    title: "Midterm 2 Review"
+    label: exam-review
   - date: 2026-04-06 
     title: "Midterm 2 (<a href=\"./syllabus/#exams\">CBTF</a>, Monday-Thursday)"
     label: exam
+  - date: 2026-04-24
+    title: "Midterm 3 Review"
+    label: exam-review
   - date: 2026-04-30
     title: "Midterm 3 (<a href=\"./syllabus/#exams\">Paper</a>)"
     label: exam
