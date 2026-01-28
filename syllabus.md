@@ -125,7 +125,7 @@ There are four exams in this course:
 {: .important}
 
 > - **Computer-Based Midterm 1** ON **Mon, March 9** OR **Tue, March 10** OR **Wed, March 11** OR **Thu, March 12** (You will sign up for a 1-hour slot)
-> - **Computer-Based Midterm 2** ON **Tue, Apr 7** OR **Wed, Apr 8** OR **Wed, Apr 9** (You will sign up for a 1-hour slot)
+> - **Computer-Based Midterm 2** ON **Tue, Apr 7** OR **Wed, Apr 8** OR **Thu, Apr 9** (You will sign up for a 1-hour slot)
 > - **Paper-Based Midterm 3** ON **Thursday, April 30** (1-hour, in lecture or later session)
 > - **Paper-Based Final** ON **Thursday, May 14** STARTING AT **11:30am**
 
