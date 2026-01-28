@@ -13,19 +13,19 @@
 # or provides an external link
 catch_up:
   - skip: true # no catch-up on the first Friday
-  - title: "Catch-Up"
-  - title: "Catch-Up"
-  - title: "Catch-Up"
-  - title: "Catch-Up"
-  - title: "Catch-Up"
+  - title: "Pandas"
+  - title: "Data Cleaning, EDA, Regex"
+  - title: "Visualizations"
+  - title: "Sampling, Modeling, SLR"
+  - title: "Constant Model, Loss, Transformations"
   - skip: true #  mt1 review
   - skip: true # mt1
-  - title: "Catch-Up"
+  - title: "Feature Engineering, CV, Regularization, RVs"
   - title: "Spring Break" # spring break
     nonumber: true
   - skip: true # mt2 review
   - skip: true # mt2
-  - title: "Catch-Up"
+  - title: "SQL, Logistic Regression"
   - skip: true # mt3 review
   - skip: true # mt3
   - title: "RRR Week" # rrr week

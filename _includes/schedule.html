@@ -265,7 +265,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless cu_entry.nonumber -%}
-                                <strong class="label label-catch-up">Catch Up {{ catch_up_number }}</strong>
+                                <strong class="label label-catch-up">Catch-Up {{ catch_up_number }}</strong>
                                 {%- assign catch_up_number = catch_up_number | plus: 1 -%}
                             {%- endunless -%}
 
