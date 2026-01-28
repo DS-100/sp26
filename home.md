@@ -32,7 +32,7 @@ seo:
   </div>
 </div>
 
-{% assign announcement = site.announcements | last %}
+{% assign announcement = site.announcements | where: 'week', site.current_week | first %}
 {{ announcement }}
 
 <h2 class="d-flex align-items-center" id="schedule">
