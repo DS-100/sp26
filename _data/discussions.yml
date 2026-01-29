@@ -14,8 +14,9 @@
 # you provided a slug or provides an external link
 discussions:
   - skip: true # no discussion week 1
-  - title: "Prerequisites"
-    link: https://drive.google.com/file/d/1WzM0WKIuCoVcJMBJqetGkGQ4eNehialZ/view?usp=sharing
+  # - title: "Prerequisites"
+  #   link: https://drive.google.com/file/d/1WzM0WKIuCoVcJMBJqetGkGQ4eNehialZ/view?usp=sharing
+  - slug: "01"
   - title: "Pandas I"
   - title: "Pandas II, EDA"
   - title: "Regex, Visualization, and Transformation"

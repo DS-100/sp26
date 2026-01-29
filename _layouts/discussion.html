@@ -3,8 +3,7 @@ layout: default
 ---
 
 <div class="discussion">
-    <h1>{{ page.title }}: {{ page.description }}</h1>
-    <div class="due">Due at: {{ page.due }}</div>
+    <h1>Discussion {{ page.number }}: {{ page.title }}</h1>
 
     <div class="materials" style="margin: 20px 0;">
         {%- if page.pdfs -%}
@@ -31,12 +30,4 @@ layout: default
     <div class="content">
         {{ content }}
     </div>
-
-    <hr>
-
-    <h2>Submission</h2>
-    {% include submission.html 
-        gradescope_assignment_id=page.gradescope_assignment_id 
-        submission_files=page.submission_files 
-    %}
 </div>
