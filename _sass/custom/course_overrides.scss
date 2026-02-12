@@ -88,3 +88,18 @@
     }
   }
 }
+
+.site-logo {
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.site-header {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  min-height: 100px !important;
+}
