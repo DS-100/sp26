@@ -43,7 +43,7 @@ favicon_ico: "/assets/branding/favicon.ico"
 current_week: 4
 
 nav_external_links:
-  - title: Acknowledgements
+  - title: Course Acknowledgements
     url: https://ds100.org/acknowledgements/
     hide_icon: true
   - title: Course Notes
