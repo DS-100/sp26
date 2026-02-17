@@ -51,6 +51,10 @@ extra_days_col2:
     title: "Exam Prep 2: Pandas and Regex"
     label: exam-prep
     link: https://drive.google.com/file/d/1eL3kvnoKUL-CEvvg76BmAENGC-42MOAl/view?usp=sharing
+  - date: 2026-02-16
+    title: "Exam Prep 3: Distributions"
+    label: exam-prep
+    link: https://drive.google.com/file/d/1d6igewcjML327eBnd9kGjjNDFJ5GvaNt/view?usp=sharing
   - date: 2026-04-27
     title: "PCA and Clustering (Recorded)"
     label: discussion
