@@ -19,7 +19,7 @@ discussions:
   - slug: "01"
   - slug: "02"
   - slug: "03"
-  - title: "Regex, Visualization, and Transformation"
+  - slug: "04"
   - title: "Probability, Sampling, and Visualization"
   - title: "Modeling and OLS"
   - title: "Gradient Descent"
