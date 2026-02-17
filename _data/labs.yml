@@ -20,7 +20,7 @@ labs:
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab02B%2Flab02B.ipynb
   - title: "Lab 3: Regex, EDA"
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab03%2Flab03.ipynb
-  - title: "Lab 4: Tranformations"
+  - title: "Lab 4: Transformations"
   - title: "Lab 5: Modeling, Summary Statistics, Loss Functions, and OLS"
   - skip: true
   - title: "Lab 6: Gradient Descent, sklearn"
