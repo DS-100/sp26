@@ -52,6 +52,9 @@ lectures:
       - title: Note 8
         link: https://ds100.org/course-notes/visualization-2/
   - slug: "09"
+    readings:
+      - title: Note 9 (Fall 2025)
+        link: https://ds100.org/course-notes/sampling/
   - slug: "10"
   - slug: "11"
   - slug: "12"
