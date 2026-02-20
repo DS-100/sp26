@@ -56,6 +56,9 @@ lectures:
       - title: Note 9 (Fall 2025)
         link: https://ds100.org/course-notes/sampling/
   - slug: "10"
+    readings:
+      - title: Note 10 (Fall 2025)
+        link: https://ds100.org/course-notes/modeling-slr/
   - slug: "11"
   - slug: "12"
   - slug: "13"
