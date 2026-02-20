@@ -58,7 +58,14 @@ extra_days_col2:
   - date: 2026-04-27
     title: "PCA and Clustering (Recorded)"
     label: discussion
-    
+  - date: 2026-02-20
+    title: "Homework 4: Bike Sharing"
+    label: homework-released
+    # link: ...
+  - date: 2026-02-28
+    title: "Homework 4: Bike Sharing"
+    label: homework-due
+
 
 # The dates used in extra_links_col3 below must already be included on the calendar 
 # Use this to provide extra links in the third (reading) column

@@ -101,6 +101,8 @@
                 {%- if extra.label and extra.label != "none" -%}
                     {%- if extra.label == "homework-released" -%}
                         <strong class="label label-homework">Homework Released</strong>
+                    {%- elsif extra.label == "homework-due" -%}
+                        <strong class="label label-homework-due">Homework Due</strong>
                     {%- elsif extra.label == "lab-released" -%}
                         <strong class="label label-lab">Lab Released</strong>
                     {%- else -%}
