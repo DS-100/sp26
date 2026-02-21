@@ -16,7 +16,7 @@ catch_up:
   - slug: "01" # pandas
   - slug: "02" # Data Cleaning, EDA, Regex
   - slug: "03" # Visualization
-  - title: "Sampling, Modeling, SLR"
+  - slug: "04" # "Sampling, Modeling, SLR"
   - title: "Constant Model, Loss, Transformations"
   - skip: true #  mt1 review
   - skip: true # mt1
