@@ -55,6 +55,10 @@ extra_days_col2:
     title: "Exam Prep 3: Distributions"
     label: exam-prep
     link: https://drive.google.com/file/d/1d6igewcjML327eBnd9kGjjNDFJ5GvaNt/view?usp=sharing
+  - date: 2026-02-23
+    title: "Exam Prep 4: Transformations, Sampling, & SLR"
+    label: exam-prep
+    link: https://drive.google.com/file/d/1EXpT_cC-AlhCIlmbcI--NUhOfTYoLibI/view?usp=sharing
   - date: 2026-04-27
     title: "PCA and Clustering (Recorded)"
     label: discussion
