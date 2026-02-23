@@ -13,6 +13,17 @@
     line-height: 1.2;
 }
 
+/* Past Exams By Topic tables: equal column widths, separate Solutions column */
+.exam-topic-table {
+  table-layout: fixed;
+  width: 100%;
+
+  th, td {
+    width: 33.33%;
+    box-sizing: border-box;
+  }
+}
+
 .instructor-grid {
   display: flex;       /* Put items side-by-side */
   flex-wrap: wrap;     /* Allow wrapping to the next line if space runs out */

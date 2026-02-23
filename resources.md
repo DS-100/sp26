@@ -31,7 +31,7 @@ Textbook readings are purely optional, and may contain material that is not in s
 ## Exam Resources
 
 {: .important }
-> For exam practice on specific topics, see [**Past Exams by Topic**]({{ "/exams.html" | relative_url }}) on this site, or review the [**Practice Problems by Topic**](https://docs.google.com/document/d/1jS12lDvFtYiufBPmNPfGDAoJ7blsekDLlCZz7G-lscQ/edit?usp=sharing){:target="_blank"} document. Also, refer to the [Data 100: Past Exam Common Questions](https://docs.google.com/document/d/e/2PACX-1vQm6iUDd-S2reyCNVHNgHKQTr7AqBQTbTEVew2POSvSAQLdpSPJb1OlYWsQ5wuFkVf1yHSVGXcta4Tv/pub){:target="_blank"}, curating common exam-related questions we've seen on Ed over the past couple semesters, and corresponding staff responses. Feel free to make use of this resource when reviewing past exam questions.
+> For exam practice on specific topics, see our dedicated [**Exams page**]({{ "/exams" | relative_url }}). You can also review the [Practice Problems by Topic](https://docs.google.com/document/d/1jS12lDvFtYiufBPmNPfGDAoJ7blsekDLlCZz7G-lscQ/edit?usp=sharing){:target="_blank"} document and refer to the [Data 100: Past Exam Common Questions](https://docs.google.com/document/d/e/2PACX-1vQm6iUDd-S2reyCNVHNgHKQTr7AqBQTbTEVew2POSvSAQLdpSPJb1OlYWsQ5wuFkVf1yHSVGXcta4Tv/pub){:target="_blank"}, which curates common exam-related questions we've seen on Ed over the past couple semesters, and corresponding staff responses. Feel free to make use of this resource when reviewing past exam questions.
 
 | Semester | Midterm 1 | Midterm 2 | Midterm 3 | Final | Reference Sheet |
 | :-- | :-- | :-- | :-- | :-- |
