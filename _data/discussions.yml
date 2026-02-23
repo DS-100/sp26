@@ -20,7 +20,7 @@ discussions:
   - slug: "02"
   - slug: "03"
   - slug: "04"
-  - title: "Probability, Sampling, and Visualization"
+  - slug: "05"
   - title: "Modeling and OLS"
   - title: "Gradient Descent"
   - title: "Feature Engineering, Housing"
