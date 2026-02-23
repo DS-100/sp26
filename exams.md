@@ -11,7 +11,7 @@ description: Past exams organized by topic for targeted exam preparation.
 For exam practice on specific topics, use the **Past Exams by Topic** section below. Each topic lists relevant exam questions with links to the exam and solutions.
 
 {: .important }
-> Our past exams have been annotated using our [Data 100: Past Exam Common Questions](https://docs.google.com/document/d/e/2PACX-1vQm6iUDd-S2reyCNVHNgHKQTr7AqBQTbTEVew2POSvSAQLdpSPJb1OlYWsQ5wuFkVf1yHSVGXcta4Tv/pub){:target="_blank"} document, which curates common exam-related questions we've seen on Ed over the past couple semesters, and corresponding staff responses. This page also "webifies" our [Practice Problems by Topic](https://docs.google.com/document/d/1jS12lDvFtYiufBPmNPfGDAoJ7blsekDLlCZz7G-lscQ/edit?usp=sharing){:target="_blank"} document, which is helpful for targetting specific toipcs
+> Our past exams have been annotated using our [Data 100: Past Exam Common Questions](https://docs.google.com/document/d/e/2PACX-1vQm6iUDd-S2reyCNVHNgHKQTr7AqBQTbTEVew2POSvSAQLdpSPJb1OlYWsQ5wuFkVf1yHSVGXcta4Tv/pub){:target="_blank"} document, which curates common exam-related questions we've seen on Ed over the past couple semesters and corresponding staff responses. This page also "webifies" our [Practice Problems by Topic](https://docs.google.com/document/d/1jS12lDvFtYiufBPmNPfGDAoJ7blsekDLlCZz7G-lscQ/edit?usp=sharing){:target="_blank"} document, which is helpful for finding past exam questions pertaining to specific topics.
 
 Jump to:
 * TOC
