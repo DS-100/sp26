@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Exams
+title: Past Exams
 nav_order: 5
 description: Past exams organized by topic for targeted exam preparation.
 ---
