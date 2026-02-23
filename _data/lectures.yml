@@ -36,11 +36,29 @@ lectures:
       - title: Note 4
         link: https://ds100.org/course-notes/pandas-3/
   - slug: "05"
+    readings:
+      - title: Note 5
+        link: https://ds100.org/course-notes/eda/
   - slug: "06"
+    readings:
+      - title: Note 6
+        link: https://ds100.org/course-notes/regex/
   - slug: "07"
+    readings:
+      - title: Note 7
+        link: https://ds100.org/course-notes/visualization-1/
   - slug: "08"
+    readings:
+      - title: Note 8
+        link: https://ds100.org/course-notes/visualization-2/
   - slug: "09"
+    readings:
+      - title: Note 9 (Fall 2025)
+        link: https://ds100.org/course-notes/sampling/
   - slug: "10"
+    readings:
+      - title: Note 10 (Fall 2025)
+        link: https://ds100.org/course-notes/modeling-slr/
   - slug: "11"
   - slug: "12"
   - slug: "13"

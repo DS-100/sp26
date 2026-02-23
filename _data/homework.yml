@@ -17,8 +17,10 @@ homework:
   - title: "Homework 2A: Food Safety I"
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw02A%2Fhw02A.ipynb
   - title: "Homework 2B: Food Safety II"
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw02B%2Fhw02B.ipynb
   - title: "Homework 3: NYT Articles"
-  - title: "Homework 4: Bike Sharing"
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw03%2Fhw03.ipynb
+  - skip: true # "Homework 4: Visualization"
   - title: "Homework 5: Modeling and OLS"
   - skip: true
   - skip: true # proj A1

@@ -14,9 +14,9 @@
 catch_up:
   - skip: true # no catch-up on the first Friday
   - slug: "01" # pandas
-  - title: "Data Cleaning, EDA, Regex"
-  - title: "Visualizations"
-  - title: "Sampling, Modeling, SLR"
+  - slug: "02" # Data Cleaning, EDA, Regex
+  - slug: "03" # Visualization
+  - slug: "04" # "Sampling, Modeling, SLR"
   - title: "Constant Model, Loss, Transformations"
   - skip: true #  mt1 review
   - skip: true # mt1

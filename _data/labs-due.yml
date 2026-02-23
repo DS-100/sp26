@@ -3,3 +3,6 @@ labs-due:
   - skip: true
   - title: "Lab 1: Prerequisite Coding"
   - title: "Lab 2A: Pandas"
+  - title: "Lab 2B: Data Cleaning, EDA"
+  - title: "Lab 3: Regex, EDA"
+  - title: "Lab 4: Visualization, Transformations, and KDEs"

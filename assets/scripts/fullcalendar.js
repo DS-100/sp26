@@ -4,6 +4,23 @@
 let GOOGLE_CALENDAR_ID = '{{ site.google_calendar.google_calendar_id }}';
 let EVENT_CONFIG = {{ site.google_calendar.event_types | jsonify }};
 
+// Visibility state for event type toggles (suffix -> visible)
+let eventTypeVisibility = {};
+
+// Display names for toggle buttons (config key -> button label); keys not listed are hidden from toggles
+const TOGGLE_DISPLAY_NAMES = {
+  'Lecture': 'Lecture',
+  'Session': 'Catch-Up',
+  'Instructor Office Hours': 'Instructor Office Hours',
+  'Office Hours': 'Office Hours',
+  'Section': 'Discussion',
+  'Other': 'Other',
+  // 'Tutoring Section' and 'Exam' omitted = no toggle button (events still show by default)
+};
+
+// Order of toggle buttons (config keys)
+const TOGGLE_ORDER = ['Lecture', 'Section', 'Office Hours', 'Instructor Office Hours', 'Session', 'Other'];
+
 let extend_event = (event, config) => {
   if (config.background_color) {
       event.backgroundColor = `#${config.background_color}`;
@@ -20,17 +37,31 @@ let extend_event = (event, config) => {
 
 let transform_calendar_event = (event) => {
   let title = event.title.trim();
+  event.extendedProps ||= {};
   for (config of EVENT_CONFIG) {
     if (config.prefix && title.startsWith(config.prefix)) {
+      event.extendedProps.eventTypeSuffix = config.prefix;
       return extend_event(event, config);
     }
     if (config.suffix && title.endsWith(config.suffix.trim())) {
+      event.extendedProps.eventTypeSuffix = config.suffix.trim();
       return extend_event(event, config);
     }
   }
-
+  event.extendedProps.eventTypeSuffix = 'Other';
   return event;
 }
+
+let create_event_data_transform = () => {
+  return (event) => {
+    let transformed = transform_calendar_event(event);
+    let suffix = transformed.extendedProps?.eventTypeSuffix;
+    if (suffix !== undefined && eventTypeVisibility[suffix] === false) {
+      return false; // Hide event (FullCalendar requires false, not null)
+    }
+    return transformed;
+  };
+};
 
 /* NOTES / Future Things:
  * Set initial date to start of semester if semester is over.
@@ -38,6 +69,17 @@ let transform_calendar_event = (event) => {
 *
 */
 document.addEventListener('DOMContentLoaded', function() {
+  // Initialize visibility: all event types visible (order: config types first, then Other)
+  let eventTypeLabels = [];
+  for (let config of EVENT_CONFIG) {
+    let label = (config.suffix || config.prefix || '').trim();
+    if (label && !eventTypeLabels.includes(label)) eventTypeLabels.push(label);
+  }
+  eventTypeLabels.push('Other');
+  for (let label of eventTypeLabels) {
+    eventTypeVisibility[label] = true;
+  }
+
   let calendarEl = document.getElementById('full-calendar');
   let calendar = new FullCalendar.Calendar(calendarEl, {
     // plugins: [FullCalendar.TimeGrid, FullCalendar.GoogleCalendar],
@@ -67,11 +109,12 @@ document.addEventListener('DOMContentLoaded', function() {
     eventSources: [
       {
         googleCalendarId: GOOGLE_CALENDAR_ID,
-        eventDataTransform: transform_calendar_event,
+        eventDataTransform: create_event_data_transform(),
       },
       {
         // UC Berkeley Student Services Calendar
         googleCalendarId: 'c_lublpqqigfijlbc1l4rudcpi5s@group.calendar.google.com',
+        eventDataTransform: create_event_data_transform(),
         backgroundColor: '#B3E59A',
         textColor: '#000000',
       },
@@ -119,4 +162,36 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   calendar.render();
+
+  // Build button-toggle UI for event types
+  let toggleWrapper = document.createElement('div');
+  toggleWrapper.className = 'calendar-event-toggles-wrapper';
+  let toggleContainer = document.createElement('div');
+  toggleContainer.id = 'calendar-event-toggles';
+  toggleContainer.className = 'calendar-event-toggles';
+  toggleContainer.setAttribute('role', 'group');
+  toggleContainer.setAttribute('aria-label', 'Filter calendar events by type');
+  let eventTypeLabelSet = new Set(eventTypeLabels);
+  for (let label of TOGGLE_ORDER) {
+    if (!eventTypeLabelSet.has(label)) continue;
+    let displayName = TOGGLE_DISPLAY_NAMES[label];
+    if (displayName === undefined) continue; // no toggle for this type (e.g. Tutoring Section, Exam)
+    let btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'calendar-toggle-btn active';
+    btn.setAttribute('data-event-type', label);
+    btn.setAttribute('aria-label', `Toggle ${displayName} events`);
+    btn.setAttribute('aria-pressed', 'true');
+    btn.textContent = displayName;
+    btn.addEventListener('click', function() {
+      let active = eventTypeVisibility[label];
+      eventTypeVisibility[label] = !active;
+      this.classList.toggle('active', eventTypeVisibility[label]);
+      this.setAttribute('aria-pressed', String(eventTypeVisibility[label]));
+      calendar.refetchEvents();
+    });
+    toggleContainer.appendChild(btn);
+  }
+  toggleWrapper.appendChild(toggleContainer);
+  calendarEl.parentNode.insertBefore(toggleWrapper, calendarEl);
 });

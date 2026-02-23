@@ -18,8 +18,8 @@ discussions:
   #   link: https://drive.google.com/file/d/1WzM0WKIuCoVcJMBJqetGkGQ4eNehialZ/view?usp=sharing
   - slug: "01"
   - slug: "02"
-  - title: "Pandas II, EDA"
-  - title: "Regex, Visualization, and Transformation"
+  - slug: "03"
+  - slug: "04"
   - title: "Probability, Sampling, and Visualization"
   - title: "Modeling and OLS"
   - title: "Gradient Descent"

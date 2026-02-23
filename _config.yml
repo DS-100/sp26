@@ -27,12 +27,13 @@ url: 'https://ds100.org' # the hostname & protocol for your site, e.g. http://ex
 course: Data 100
 course_email: data100.instructors@berkeley.edu 
 comms_email: data100.support@berkeley.edu
-gradescope_course_id: 123456 
+gradescope_course_id: # not in use 
 bcourses_course_id: 1551658 
-ed_course_id: 123456
+ed_course_id: 93833
 semester: Spring 2026
 
 course_logo_path: assets/branding/panda-logo.png
+logo: assets/branding/panda-logo.png
 # This should be one of eecs, dsus, stat
 course_department: dsus
 class_archive_path: /
@@ -40,9 +41,12 @@ class_archive_path: /
 favicon_ico: "/assets/branding/favicon.ico"
 
 # Update each week for "Jump to Current Week" button
-current_week: 3
+current_week: 5
 
 nav_external_links:
+  - title: Course Acknowledgements
+    url: https://ds100.org/acknowledgements/
+    hide_icon: true
   - title: Course Notes
     url: https://ds100.org/course-notes/
     hide_icon: true
@@ -68,8 +72,8 @@ aux_links:
   #   - 'https://ds100.org/course-notes/'
   # Ed:
   #   - 'https://edstem.org'
-  # Pensieve:
-  #   - 'https://www.pensieve.co/'
+  # Pensive:
+  #   - 'https://www.pensive.com/'
 
 # TODO(template): These need to be documented
 # TODO(semester): You may want to review these...

@@ -54,3 +54,63 @@
   margin-left: 1rem;
   font-family: $body-font-family;
 }
+
+/* Calendar event type toggles — match FullCalendar week/day button colors */
+.calendar-event-toggles-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.calendar-event-toggles {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  border: 1px solid var(--fc-button-border-color, #2c3e50);
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 0.9rem;
+
+  .calendar-toggle-btn {
+    padding: 0.4rem 0.75rem;
+    border: none;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+
+    &:first-child {
+      border-left: none;
+    }
+    /* Non-selected: light background */
+    background: #e8eaed;
+    color: #3c4043;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 500;
+    transition: background 0.15s, color 0.15s;
+
+    &:hover:not(.active) {
+      background: #dadce0;
+    }
+
+    /* Selected: dark to match week/day toggles */
+    &.active {
+      background: var(--fc-button-active-bg-color, #1a252f);
+      color: var(--fc-button-text-color, #fff);
+    }
+  }
+}
+
+.site-logo {
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.site-header {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  min-height: 100px !important;
+}

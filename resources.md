@@ -66,12 +66,12 @@ Textbook readings are purely optional, and may contain material that is not in s
 <a name = 'course_website'></a>
 ## Course Website
 
-We will be posting all lecture materials on the course syllabus. In addition, they will also be listed in the following publicly visible [GitHub repository](https://github.com/DS-100/sp25-student).
+We will be posting all lecture materials on the course syllabus. In addition, they will also be listed in the following publicly visible [GitHub repository](https://github.com/DS-100/{{ site.baseurl | remove: '/' }}-student).
 
 You can send us changes to the course website by
 [forking](https://help.github.com/articles/fork-a-repo/) and sending a [pull
 request](https://help.github.com/articles/about-pull-requests/) to the course
-website [GitHub repository](https://github.com/DS-100/sp25). You will then
+website [GitHub repository](https://github.com/DS-100/{{ site.baseurl | remove: '/' }}). You will then
 become part of the history of Data 100 at Berkeley.
 
 ## Coding and Mathematics Resources
@@ -92,11 +92,12 @@ become part of the history of Data 100 at Berkeley.
 
 ### Regex
 + [Regex101.com](https://regex101.com). Remember to select the Python flavour of Regex!
-+ [Data 100 Regex Reference Sheet](assets/other/regex_reference_fa23.pdf)
++ [Data 100 Regex Reference Sheet](https://drive.google.com/file/d/1-OkbAv-iLCljI_6b-NcmmmosePbP3jEZ/view)
 + The official [Python3 regex guide](https://docs.python.org/3/howto/regex.html) is good!
 
 ### LaTeX
 + [Quick Guide to Overleaf and LaTeX](https://www.overleaf.com/learn)
++ [Possible Choices of LaTeX Editors/IDEs](https://tex.stackexchange.com/questions/339/latex-editors-ides)
 
 ### Other Web References
 As a data scientist you will often need to search for information on various libraries and tools. In this class we will be using several key python libraries. Here are their documentation pages:
@@ -249,4 +250,8 @@ The [UC Berkeley Food Pantry](https://pantry.berkeley.edu/) (#68 Martin Luther K
 ## Data Science Education
 
 Interested in bringing the Data Science major or curriculum to your academic institution?  Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfw6iN-V58Urvg7RRfbjNQceisLULBizg0qku1_2qV8cvOtvA/viewform) if you would like support from Berkeley in offering some variant of our Data Science courses at your institution (or just to let us know that you're interested). Information about the courses appear at [data8.org](http://data8.org) and [ds100.org](http://ds100.org). Please note that this form is only for instructors. If you are only interested in learning Python or data science, please look at our Data 8 or Data 100 websites mentioned above.
+
+### D-Lab
+
+[D-Lab](https://dlab.berkeley.edu/) helps UC Berkeley undergraduate students, graduate students, faculty, and staff move forward with world-class research in data intensive social science and humanities. It also provides super helpful workshops that teaches you practial skills in many data science related topics! Check [here](https://dlab.my.salesforce-sites.com/events?_gl=1*543qi5*_ga*MTg3OTQxNzg3Ny4xNzY0NzgwNDYz*_ga_4FP3KBY1V9*czE3NzA0NjI4OTUkbzEkZzEkdDE3NzA0NjM1NDkkajYwJGwwJGgw) and see if something interests you!
 
