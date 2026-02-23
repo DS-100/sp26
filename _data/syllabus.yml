@@ -63,11 +63,11 @@ extra_days_col2:
     title: "PCA and Clustering (Recorded)"
     label: discussion
   - date: 2026-02-20
-    title: "Homework 4: Bike Sharing"
+    title: "Homework 4: Visualization"
     label: homework-released
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw04%2Fhw04.ipynb
   - date: 2026-03-01
-    title: "Homework 4: Bike Sharing"
+    title: "Homework 4: Visualization"
     label: homework-due
 
 
