@@ -45,8 +45,6 @@ The purpose of the project is to give students experience in both open-ended dat
 
 For each milestone listed above, detailed expectations can be found in the "Milestone" section under the Computer Vision project page. Please refer to these sections for specific requirements and guidelines.
 
-In addition to these milestones, you will have weekly internal peer reviews to fill out, each accounting for 1% of your grade (6 internal reviews in total). Internal reviews are important to understand how each member of the group is contributing to the project and how the tasks are distributed among members. This is graded on completion and submitted via Pensieve each week.
-
 ### Late Policy
 - **No Extensions for Milestones**: Must be submitted on time; no extensions are permitted. Milestones cannot be submitted late as they are crucial for the peer review process.
 - **Final Report and Presentation Video**: Late submissions incur a 10% daily penalty, up to a maximum of two days. Submissions are rounded to the nearest day (e.g., 2 minutes late counts as 1 day late).
