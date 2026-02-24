@@ -269,7 +269,7 @@ The presentation video should provide an overview of your project, highlighting 
 
 This component of the final report will be graded based on your models' performance on the test set for both tasks of your chosen project (please find the thresholds for each task in the rubrics). You will need to submit your predictions to Pensive to get your test performance; you will be allowed to upload up to 4 times a day. Please find the test data for each task below.
 
-`test_images_flooding-fire.npz` is the test for Task A and `test_images_hurricane-matthew.npz` is the test set for Task B; both files are located in the `_shared/bcourses-1547854-readonly` directory on Data 100 Datahub.
+`test_images_flooding-fire.npz` is the test for Task A and `test_images_hurricane-matthew.npz` is the test set for Task B; both files are located in the `_shared/bcourses-1551658-readonly` directory on Data 100 Datahub.
 
 Please submit two CSV files named `test_images_flooding-fire_predictions.csv`, and `test_images_hurricane-matthew_predictions.csv` to the predictions assignment. Each CSV should only contain one column named `pred`.
 
