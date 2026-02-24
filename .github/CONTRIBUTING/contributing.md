@@ -1,6 +1,6 @@
 # Contributing to the DATA 100 Course Website
 
-Thank you for your interest in contributing to the DATA C100 course website.
+Thank you for your interest in contributing to the DATA 100 course website.
 Your help improves the learning experience for everyone and becomes part of the
 living history of Data 100 at UC Berkeley.
 

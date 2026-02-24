@@ -114,7 +114,7 @@ Please refer to [Grading Scheme](#grading-scheme) for a comprehensive grade brea
 - All lab autograder tests are public (visible).
 - We will not have lab sections for Data 100 this semester. Rather, we'll provide extensive lab support on Ed and accompanying video walkthroughs.
 - All labs are intended to take about an hour.
-- Lab submissions are mandatory (unless you are a Data C200 student).
+- Lab submissions are mandatory (unless you are a Data 200 student).
 - Your two lowest lab scores will be dropped.
 
 
@@ -152,7 +152,7 @@ The final is scheduled for **Thursday 5/14 11:30am-2:30pm**. The [official final
 
 ### Graduate Final Project
 
-All students enrolled in the graduate version of the course (CS C200A or Stat C200C, i.e. Data 200; Data 200S) will be graded according to the Graduate grading scheme, which includes a team-based **Graduate Final Project** distributed in the second half of the semester. More details to come.
+All students enrolled in the graduate version of the course (Data 200 or Data 200S) will be graded according to the Graduate grading scheme, which includes a team-based **Graduate Final Project** distributed in the second half of the semester. More details to come.
 
 
 ## Office Hours and Communication
@@ -198,7 +198,7 @@ Course Communication:
 
 **Data 200S students must achieve at least 50% in the Graduate Final Project to pass the course.**
 
-It is your responsibility to know if you are enrolled in Data 100 or Data 200 or Data 200S.
+It is your responsibility to know if you are enrolled in Data 100 or Data 200 or Data 200S. *Note that Data 200 is equivalent to Data C200, CS C200A, and Stat C200C, but not Data 200S.*
 
 While we do not have homework drops this semester, we will offer slip days for homeworks/projects, as well as an [Additional Accommodations Form](https://docs.google.com/forms/d/e/1FAIpQLSe67DuhYNwPyxrlDOSO-zGv_ViYxQuIj8-GScpfrCGTYfuq3A/viewform?usp=header){:target="_blank"}. See the next sections for more details.
 
@@ -293,7 +293,7 @@ Finally, know that it’s normal to struggle. Berkeley has high standards, which
 
 ## Course Culture
 
-Students taking Data C100 come from a wide range of backgrounds. We hope to foster an inclusive and safe learning environment based on curiosity rather than competition. All members of the course community — the instructors, students, and course staff — are expected to treat each other with courtesy and respect. Some of the responsibility for that lies with the staff, but a lot of it ultimately rests with you, the students.
+Students taking Data 100 come from a wide range of backgrounds. We hope to foster an inclusive and safe learning environment based on curiosity rather than competition. All members of the course community — the instructors, students, and course staff — are expected to treat each other with courtesy and respect. Some of the responsibility for that lies with the staff, but a lot of it ultimately rests with you, the students.
 
 
 ### Be Aware of Your Actions
