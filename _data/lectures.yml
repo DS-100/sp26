@@ -53,15 +53,15 @@ lectures:
         link: https://ds100.org/course-notes/visualization-2/
   - slug: "09"
     readings:
-      - title: Note 9 (Fall 2025)
+      - title: Note 9
         link: https://ds100.org/course-notes/sampling/
   - slug: "10"
     readings:
-      - title: Note 10 (Fall 2025)
+      - title: Note 10
         link: https://ds100.org/course-notes/modeling-slr/
   - slug: "11"
     readings:
-      - title: Note 11 (Fall 2025)
+      - title: Note 11
         link: https://ds100.org/course-notes/loss-transformations/
   - slug: "12"
   - slug: "13"
