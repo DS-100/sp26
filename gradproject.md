@@ -27,7 +27,7 @@ The purpose of the project is to give students experience in both open-ended dat
 
 | Milestones  | Deadline (11:59 PM Pacific) | Event | Deliverables | Submission Link | Grading Weight |
 | ----------- | --------------------------- | ----- | ------------ | --------------- | -------------- |
-| Milestone 1 | March 4 | Group Formation + Research Proposal | [Project Proposal](https://docs.google.com/document/d/1dG6FKeC966gmec5rz6uD7tZYEVJv0n5w0kN4BuLkYnM/edit?usp=sharing){:target=_"blank"} | [Pensive](https://www.pensive.com/student/classes/data100_sp26/my-assignments){:target="_blank"} | 5% |
+| Milestone 1 | March 4 | Group Formation + Research Proposal | [Project Proposal](https://docs.google.com/document/d/1dG6FKeC966gmec5rz6uD7tZYEVJv0n5w0kN4BuLkYnM/edit?usp=sharing){:target="_blank"} | [Pensive](https://www.pensive.com/student/classes/data100_sp26/my-assignments?submitAssignment=89e4cd98-a5de-47e9-8b52-3cf9e50c850d){:target="_blank"} | 5% |
 | Milestone 2 | March 18 | EDA | EDA Write-Up + Notebook | Pensive | 10% |
 | Milestone 3 | April 1 | Mandatory Check-In | Progress Report + Meeting Booking | Pensive | 10% |
 | Milestone 4 | April 15 | Project Report First Draft | Final Report Draft Write-Up | Pensive | 20% |
