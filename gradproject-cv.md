@@ -47,7 +47,7 @@ You are required to perform **(1) Exploratory Data Analysis (EDA)** and **(2) Mo
 
 ### Exploratory Data Analysis
 
-To help you with onboarding, the agency has provided a starter notebook `cv_eda_starter.ipynb` which will introduce you to the dataset and some useful internal tools. After completing the onboarding assignment you will be comfortable with the following:
+To help you with onboarding, the agency has provided a starter notebook [`cv_eda_starter.ipynb`](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fgrad-proj%2Fcv_eda_starter.ipynb){:target="_blank"} which will introduce you to the dataset and some useful internal tools. After completing the onboarding assignment you will be comfortable with the following:
 
 1. Loading and visualizing data using tools from `data_utils.py`
 2. Processing different color channels in the dataset images.
@@ -64,7 +64,7 @@ Please prepare an EDA report to present to the agency leadership with the above 
 
 ### Project Tasks
 
-Now that leadership is pleased with your initial EDA report and confident in your data science ability, they would like you to assist the agency with various tasks. *Please complete Task A first and then Task B.* To help you get started, the agency has provided a starter notebook `cv_model_starter.ipynb`.
+Now that leadership is pleased with your initial EDA report and confident in your data science ability, they would like you to assist the agency with various tasks. *Please complete Task A first and then Task B.* To help you get started, the agency has provided a starter notebook [`cv_model_starter.ipynb`](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fgrad-proj%2Fcv_model_starter.ipynb){:target="_blank"}.
 
 #### *Task A: Disaster Type Classification*
 {:.no_toc}
