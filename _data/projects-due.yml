@@ -1,0 +1,16 @@
+# treat this YAML similar to _data/projects.yml
+# each entry requires title, date, and label-number
+# skip: true will omit the project due date from the schedule entirely
+projects-due:
+  - title: "Housing I"
+    date: 2026-03-20
+    label-number: A1
+  - title: "Housing II"
+    date: 2026-04-03
+    label-number: A2
+  - title: "Spam & Ham I"
+    date: 2026-04-24
+    label-number: B1
+  - title: "Spam & Ham II"
+    date: 2026-05-05
+    label-number: B2

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="discussion">
+    <h1>Exam Prep {{ page.number }}: {{ page.title }}</h1>
+
+    <div class="materials" style="margin: 20px 0;">
+        {%- if page.pdfs -%}
+            <h2>Materials</h2>
+            {%- for pdf in page.pdfs -%}
+                <a href="{{ site.baseurl }}/{{ page.subpath }}{{ pdf }}" class="btn btn-outline-primary" style="margin-right: 10px;" target="_blank">
+                    View {{ pdf }}
+                </a>
+            {%- endfor -%}
+        {%- endif -%}
+
+        {%- if page.links -%}
+            {%- unless page.pdfs -%}
+                <h2>Materials</h2>
+            {%- endunless -%}
+            {%- for link in page.links -%}
+                <a href="{{ link.url }}" class="btn btn-outline-primary" style="margin-right: 10px;" target="_blank">
+                    {{ link.name }}
+                </a>
+            {%- endfor -%}
+        {%- endif -%}
+    </div>
+
+    <div class="content">
+        {{ content }}
+    </div>
+    
+</div>

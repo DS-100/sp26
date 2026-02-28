@@ -6,4 +6,9 @@ homework-due:
   - title: "Homework 2B: Food Safety II"
   - title: "Homework 3: NYT Articles"
   - skip: true # "Homework 4: Visualization"
-  
+  - title: "Homework 5: Modeling and OLS"
+  - skip: true # mt1
+  - skip: true # proj a1
+  - skip: true # spring break
+  - skip: true # proj a2
+  - title: "Homework 7: SQL" # note hw 6 due monday of this week

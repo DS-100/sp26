@@ -153,6 +153,9 @@ collections:
   catch_up:
     output: true
     permalink: /:collection/:path/
+  exam_prep:
+    output: true
+    permalink: /:collection/:path/
 
 # The sitemap **must** be enabled. It's published as /baseurl/sitemap.xml
 plugins:
@@ -184,6 +187,13 @@ defaults:
       layout: catch_up
       nav_exclude: true
       subpath: 'assets/catch_up/'
+  - scope:
+      path: ''
+      type: exam_prep
+    values:
+      layout: exam_prep
+      nav_exclude: true
+      subpath: 'assets/exam_prep/'
   - scope:
       path: ''
       type: hw

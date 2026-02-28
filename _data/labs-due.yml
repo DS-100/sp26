@@ -6,3 +6,12 @@ labs-due:
   - title: "Lab 2B: Data Cleaning, EDA"
   - title: "Lab 3: Regex, EDA"
   - title: "Lab 4: Visualization, Transformations, and KDEs"
+  - title: "Lab 5: Modeling and OLS"
+  - skip: true
+  - title: "Lab 6: Gradient Descent, sklearn"
+  - skip: true # spring break
+  - title: "Lab 7: Model Selection"
+  - skip: true # "Lab 8: Probability"
+  - title: "Lab 9: SQL"
+  - title: "Lab 10: Logistic Regression"
+  # - title: "Lab 11: PCA and Clustering"
