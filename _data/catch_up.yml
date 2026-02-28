@@ -17,7 +17,7 @@ catch_up:
   - slug: "02" # Data Cleaning, EDA, Regex
   - slug: "03" # Visualization
   - slug: "04" # "Sampling, Modeling, SLR"
-  - title: "Constant Model, Loss, Transformations"
+  - slug: "05" # Constant Model, Loss, Transformations
   - skip: true #  mt1 review
   - skip: true # mt1
   - title: "Feature Engineering, CV, Regularization, RVs"
