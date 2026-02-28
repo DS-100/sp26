@@ -11,7 +11,7 @@ labs-due:
     label-number: 3
   - title: "Visualization, Transformations, and KDEs"
     label-number: 4
-  - title: "Modeling and OLS"
+  - title: "Modeling, Loss, Summary Stats, and OLS"
     label-number: 5
   - skip: true
   - title: "Gradient Descent, sklearn"

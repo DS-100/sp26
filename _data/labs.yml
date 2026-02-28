@@ -26,7 +26,7 @@ labs:
   - title: "Visualization, Transformations, and KDEs"
     label-number: 4
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab04%2Flab04.ipynb
-  - title: "Modeling, Summary Statistics, Loss Functions, and OLS"
+  - title: "Modeling, Loss, Summary Stats, and OLS"
     label-number: 5
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab05%2Flab05.ipynb
   - skip: true

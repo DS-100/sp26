@@ -1,7 +1,7 @@
 # treat this YAML similar to _data/homework.yml
 homework-due:
   - skip: true
-  - title: "Prerequisite Math"
+  - title: "Prerequisite Math and Coding"
     label-number: 1
   - title: "Food Safety I"
     label-number: 2A
