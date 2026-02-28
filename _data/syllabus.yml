@@ -14,13 +14,19 @@ extra_days_col2:
     title: "Midterm 1 Review"
     label: exam-review
   - date: 2026-03-09
-    title: "Midterm 1 (<a href=\"./syllabus/#exams\">CBTF</a>, Monday-Thursday)"
+    title: "Midterm 1 Window Opens (<a href=\"./syllabus/#exams\">CBTF</a>)"
+    label: exam
+  - date: 2026-03-12
+    title: "Midterm 1 Window Closes (<a href=\"./syllabus/#exams\">CBTF</a>)"
     label: exam
   - date: 2026-04-03
     title: "Midterm 2 Review"
     label: exam-review
   - date: 2026-04-06 
-    title: "Midterm 2 (<a href=\"./syllabus/#exams\">CBTF</a>, Monday-Thursday)"
+    title: "Midterm 2 Window Opens (<a href=\"./syllabus/#exams\">CBTF</a>)"
+    label: exam
+  - date: 2026-04-10 
+    title: "Midterm 2 Window Closes (<a href=\"./syllabus/#exams\">CBTF</a>)"
     label: exam
   - date: 2026-04-24
     title: "Midterm 3 Review"
@@ -40,33 +46,41 @@ extra_days_col2:
 # Use this to provide extra links in the third (reading) column
 extra_links_col3:
   - date: 2026-01-21
-    title: "Lab 1: Prerequisite Coding"
+    title: "Prerequisite Coding"
     label: lab-released
+    label-number: 1
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab01%2Flab01.ipynb
   - date: 2026-01-21
-    title: "Homework 1: Prerequisite Math"
+    title: "Prerequisite Math"
     label: homework-released
+    label-number: 1
     link: https://drive.google.com/file/d/1bNTww2i7EKafzpOxJBJq2Uzmv5hly2GC/view?usp=sharing
   - date: 2026-01-21
-    title: "Homework 1: Coding"
+    title: "Coding"
     label: homework-released
+    label-number: 1
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw01%2Fhw01.ipynb
   - date: 2026-02-20
-    title: "Homework 4: Visualization"
+    title: "Visualization"
     label: homework-released
+    label-number: 4
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw04%2Fhw04.ipynb
   - date: 2026-03-01
-    title: "Homework 4: Visualization"
+    title: "Visualization"
     label: homework-due
+    label-number: 4
   - date: 2026-04-13
-    title: "Homework 6: Probability"
+    title: "Probability"
     label: homework-due
+    label-number: 6
   - date: 2026-04-13
-    title: "Lab 8: Probability"
+    title: "Probability"
     label: lab-due
+    label-number: 8
   - date: 2026-04-27
-    title: "Lab 11: PCA and Clustering"
+    title: "PCA and Clustering"
     label: lab-due
+    label-number: 11
 
 # The days of the week we have class on. Ranges from Sunday = 0 and Saturday = 6.
 # For example, for a semester with Tu/Th lectures, put ['2', '4'].

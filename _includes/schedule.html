@@ -80,10 +80,11 @@
 {%- assign lecture_number = site.data.syllabus.starting_lecture_number | default: 1 -%}
 {%- assign discussion_number = site.data.syllabus.starting_discussion_number | default: 1 -%}
 {%- assign catch_up_number = site.data.syllabus.starting_catch_up_number | default: 1 -%}
+<!-- Unused: lab/homework numbering replaced by label-number field in their YAML data files -->
 <!-- {%- assign lab_number = site.data.syllabus.starting_lab_number | default: 1 -%} -->
-{%- assign homework_number = site.data.syllabus.starting_homework_number | default: 1 -%}
+<!-- {%- assign homework_number = site.data.syllabus.starting_homework_number | default: 1 -%} -->
 {%- assign exam_prep_number = site.data.syllabus.starting_exam_prep_number | default: 1 -%}
-{%- assign homework_due_number = site.data.syllabus.starting_homework_number | default: 1 -%}
+<!-- {%- assign homework_due_number = site.data.syllabus.starting_homework_number | default: 1 -%} -->
 <!-- {%- assign lab_due_number = site.data.syllabus.starting_lab_number | default: 1 -%} -->
 
 
@@ -112,27 +113,19 @@
             {%- assign extra_date_string = extra.date | date: "%Y-%m-%d" -%}
 
             {%- if extra_date_string == current_date -%}
-              {%- unless extra.label == "homework-released" or extra.label == "homework-due" or extra.label == "lab-released" or extra.label == "exam-prep" -%}
+              {%- unless extra.label == "homework-released" or extra.label == "homework-due" or extra.label == "lab-released" or extra.label == "lab-due" -%}
                 <div class="syllabus-item" style="margin-bottom: 8px;">
                 {%- if extra.label and extra.label != "none" -%}
-                    {%- if extra.label == "homework-released" -%}
-                        <strong class="label label-homework">Homework Released</strong>
-                    {%- elsif extra.label == "homework-due" -%}
-                        <strong class="label label-homework-due">Homework Due</strong>
-                    {%- elsif extra.label == "lab-released" -%}
-                        <strong class="label label-lab">Lab Released</strong>
+                    <strong class="label label-{{ extra.label }}">
+                    {%- if extra.label == "exam-review" -%}
+                      Exam Review
+                    {%- elsif extra.label == "exam-prep" -%}
+                      Exam Prep
                     {%- else -%}
-                        <strong class="label label-{{ extra.label }}">
-                        {%- assign label_parts = extra.label | split: "-" -%}
-                        {%- if extra.label == "exam-review" -%}
-                          Exam Review
-                        {%- elsif extra.label == "exam-prep" -%}
-                          Exam Prep
-                        {%- else -%}
-                          {{ label_parts[0] | capitalize }}
-                        {%- endif -%}
-                        </strong>
+                      {%- assign label_parts = extra.label | split: "-" -%}
+                      {{ label_parts[0] | capitalize }}
                     {%- endif -%}
+                    </strong>
                 {%- endif -%}
 
                 <span>
@@ -390,15 +383,17 @@
             {%- assign extra_date_string = extra.date | date: "%Y-%m-%d" -%}
 
             {%- if extra_date_string == current_date -%}
-              {%- if extra.label == "homework-released" or extra.label == "homework-due" or extra.label == "lab-released" -%}
+              {%- if extra.label == "homework-released" or extra.label == "homework-due" or extra.label == "lab-released" or extra.label == "lab-due" -%}
                 <div class="syllabus-item" style="margin-bottom: 8px;">
                 {%- if extra.label and extra.label != "none" -%}
                     {%- if extra.label == "homework-released" -%}
-                        <strong class="label label-homework">Homework Released</strong>
+                        <strong class="label label-homework">Homework {{ extra.label-number }} Released</strong>
                     {%- elsif extra.label == "homework-due" -%}
-                        <strong class="label label-homework-due">Homework Due</strong>
+                        <strong class="label label-homework-due">Homework {{ extra.label-number }} Due</strong>
                     {%- elsif extra.label == "lab-released" -%}
-                        <strong class="label label-lab">Lab Released</strong>
+                        <strong class="label label-lab">Lab {{ extra.label-number }} Released</strong>
+                    {%- elsif extra.label == "lab-due" -%}
+                        <strong class="label label-lab-due">Lab {{ extra.label-number }} Due</strong>
                     {%- else -%}
                         <strong class="label label-{{ extra.label }}">
                         {%- assign label_parts = extra.label | split: "-" -%}
@@ -452,8 +447,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless lab_entry.nonumber -%}
-                                <strong class="label label-lab">Lab Released</strong>
-                                <!-- {%- assign lab_number = lab_number | plus: 1 -%} -->
+                                <strong class="label label-lab">Lab {{ lab_entry.label-number }} Released</strong>
                             {%- endunless -%}
 
                             {%- comment -%} 4. RENDER LINK OR TITLE {%- endcomment -%}
@@ -503,8 +497,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless lab_due_entry.nonumber -%}
-                                <strong class="label label-lab-due">Lab Due</strong>
-                                <!-- {%- assign lab_due_number = lab_due_number | plus: 1 -%} -->
+                                <strong class="label label-lab-due">Lab {{ lab_due_entry.label-number }} Due</strong>
                             {%- endunless -%}
 
                             {%- comment -%} 4. RENDER LINK OR TITLE {%- endcomment -%}
@@ -554,8 +547,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless hw_entry.nonumber -%}
-                                <strong class="label label-homework">Homework Released</strong>
-                                {%- assign homework_number = homework_number | plus: 1 -%}
+                                <strong class="label label-homework">Homework {{ hw_entry.label-number }} Released</strong>
                             {%- endunless -%}
 
                             {%- comment -%} 4. RENDER LINK OR TITLE {%- endcomment -%}
@@ -605,8 +597,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless hw_due_entry.nonumber -%}
-                                <strong class="label label-homework-due">Homework Due</strong>
-                                {%- assign homework_due_number = homework_due_number | plus: 1 -%}
+                                <strong class="label label-homework-due">Homework {{ hw_due_entry.label-number }} Due</strong>
                             {%- endunless -%}
 
                             {%- comment -%} 4. RENDER LINK OR TITLE {%- endcomment -%}
@@ -669,17 +660,17 @@
                     <div class="syllabus-item" style="margin-bottom: 8px;">
                         {%- if extra.label and extra.label != "none" -%}
                             {%- if extra.label == "homework-released" -%}
-                                <strong class="label label-homework">Homework Released</strong>
+                                <strong class="label label-homework">Homework {{ extra.label-number }} Released</strong>
                             {%- elsif extra.label == "homework-due" -%}
-                                <strong class="label label-homework-due">Homework Due</strong>
+                                <strong class="label label-homework-due">Homework {{ extra.label-number }} Due</strong>
                             {%- elsif extra.label == "lab-released" -%}
-                                <strong class="label label-lab">Lab Released</strong>
+                                <strong class="label label-lab">Lab {{ extra.label-number }} Released</strong>
                             {%- elsif extra.label == "lab-due" -%}
-                                <strong class="label label-lab-due">Lab Due</strong>
+                                <strong class="label label-lab-due">Lab {{ extra.label-number }} Due</strong>
                             {%- elsif extra.label == "project-released" -%}
-                                <strong class="label label-project">Project Released</strong>
+                                <strong class="label label-project">Project {{ extra.label-number }} Released</strong>
                             {%- elsif extra.label == "project-due" -%}
-                                <strong class="label label-project-due">Project Due</strong>
+                                <strong class="label label-project-due">Project {{ extra.label-number }} Due</strong>
                             {%- else -%}
                                 <strong class="label label-{{ extra.label }}">
                                 {%- assign label_parts = extra.label | split: "-" -%}
