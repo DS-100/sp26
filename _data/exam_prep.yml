@@ -1,0 +1,21 @@
+### EXAM PREP ORDERING ###
+# Mirrors the structure/behavior of `_data/catch_up.yml`.
+#
+# Each entry requires either a 'slug' or a 'title' field, plus a 'date' field.
+# Exam preps are date-driven (not day-of-week driven) since they occur on
+# specific dates rather than every week.
+#
+# Use the slug if you utilize the _exam_prep collection. This will take info
+# from the front matter of the corresponding file in _exam_prep/
+#
+# skip: true will omit the exam prep from the schedule entirely
+# link overrides the default link to the collection page
+exam_prep:
+  - slug: "01"
+    date: 2026-02-02
+  - slug: "02"
+    date: 2026-02-09
+  - slug: "03"
+    date: 2026-02-16
+  - slug: "04"
+    date: 2026-02-23

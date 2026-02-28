@@ -1,9 +1,20 @@
 # treat this YAML similar to _data/homework.yml
 homework-due:
   - skip: true
-  - title: "Homework 1: Prerequisite Math"
-  - title: "Homework 2A: Food Safety I"
-  - title: "Homework 2B: Food Safety II"
-  - title: "Homework 3: NYT Articles"
+  - title: "Prerequisite Math and Coding"
+    label-number: 1
+  - title: "Food Safety I"
+    label-number: 2A
+  - title: "Food Safety II"
+    label-number: 2B
+  - title: "NYT Articles"
+    label-number: 3
   - skip: true # "Homework 4: Visualization"
-  
+  - title: "Modeling and OLS"
+    label-number: 5
+  - skip: true # mt1
+  - skip: true # proj a1
+  - skip: true # spring break
+  - skip: true # proj a2
+  - title: "SQL"
+    label-number: 7 # note hw 6 due monday of this week

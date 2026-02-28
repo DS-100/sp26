@@ -14,24 +14,35 @@
 # you provided a slug or provides an external link
 labs:
   - skip: true # lab 1 on syllabus.yml to shift to W release
-  - title: "Lab 2A: Pandas"
+  - title: "Pandas"
+    label-number: 2A
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab02A%2Flab02A.ipynb
-  - title: "Lab 2B: Data Cleaning, EDA"
+  - title: "Data Cleaning, EDA"
+    label-number: 2B
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab02B%2Flab02B.ipynb
-  - title: "Lab 3: Regex, EDA"
+  - title: "Regex, EDA"
+    label-number: 3
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab03%2Flab03.ipynb
-  - title: "Lab 4: Visualization, Transformations, and KDEs"
+  - title: "Visualization, Transformations, and KDEs"
+    label-number: 4
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab04%2Flab04.ipynb
-  - title: "Lab 5: Modeling, Summary Statistics, Loss Functions, and OLS"
+  - title: "Modeling, Loss, Summary Stats, and OLS"
+    label-number: 5
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab05%2Flab05.ipynb
   - skip: true
-  - title: "Lab 6: Gradient Descent, sklearn"
-  - title: "Lab 7: Model Selection"
+  - title: "Gradient Descent, sklearn"
+    label-number: 6
+  - title: "Model Selection"
+    label-number: 7
   - skip: true # spring break
-  - title: "Lab 8: Probability"
-  - title: "Lab 9: SQL"
-  - title: "Lab 10: Logistic Regression"
-  - title: "Lab 11: PCA and Clustering"
+  - title: "Probability"
+    label-number: 8
+  - title: "SQL"
+    label-number: 9
+  - title: "Logistic Regression"
+    label-number: 10
+  - title: "PCA and Clustering"
+    label-number: 11
   # - skip: true
   # - title: "RRR Week"
   #   nonumber: true

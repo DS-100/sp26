@@ -1,8 +1,28 @@
-# treat this YAML similar to _data/homework.yml
+# treat this YAML similar to _data/labs.yml
 labs-due:
   - skip: true
-  - title: "Lab 1: Prerequisite Coding"
-  - title: "Lab 2A: Pandas"
-  - title: "Lab 2B: Data Cleaning, EDA"
-  - title: "Lab 3: Regex, EDA"
-  - title: "Lab 4: Visualization, Transformations, and KDEs"
+  - title: "Prerequisite Coding"
+    label-number: 1
+  - title: "Pandas"
+    label-number: 2A
+  - title: "Data Cleaning, EDA"
+    label-number: 2B
+  - title: "Regex, EDA"
+    label-number: 3
+  - title: "Visualization, Transformations, and KDEs"
+    label-number: 4
+  - title: "Modeling, Loss, Summary Stats, and OLS"
+    label-number: 5
+  - skip: true
+  - title: "Gradient Descent, sklearn"
+    label-number: 6
+  - skip: true # spring break
+  - title: "Model Selection"
+    label-number: 7
+  - skip: true # "Lab 8: Probability"
+  - title: "SQL"
+    label-number: 9
+  - title: "Logistic Regression"
+    label-number: 10
+  # - title: "PCA and Clustering"
+  #   label-number: 11

@@ -45,6 +45,21 @@
   {%- assign valid_dates = valid_dates | push: extra_day_epoch -%}
 {%- endfor -%}
 
+{%- for item in site.data.exam_prep.exam_prep -%}
+  {%- assign ep_day_epoch = item.date | date: '%s' | plus: 0 -%}
+  {%- assign valid_dates = valid_dates | push: ep_day_epoch -%}
+{%- endfor -%}
+
+{%- for item in site.data.projects-due.projects-due -%}
+  {%- assign proj_due_epoch = item.date | date: '%s' | plus: 0 -%}
+  {%- assign valid_dates = valid_dates | push: proj_due_epoch -%}
+{%- endfor -%}
+
+{%- for item in site.data.syllabus.extra_links_col3 -%}
+  {%- assign col3_day_epoch = item.date | date: '%s' | plus: 0 -%}
+  {%- assign valid_dates = valid_dates | push: col3_day_epoch -%}
+{%- endfor -%}
+
 {%- comment -%}
   Sort days and group into weeks.
   sorted_dates is an array, where each element is a hash with three fields:
@@ -65,9 +80,11 @@
 {%- assign lecture_number = site.data.syllabus.starting_lecture_number | default: 1 -%}
 {%- assign discussion_number = site.data.syllabus.starting_discussion_number | default: 1 -%}
 {%- assign catch_up_number = site.data.syllabus.starting_catch_up_number | default: 1 -%}
+<!-- Unused: lab/homework numbering replaced by label-number field in their YAML data files -->
 <!-- {%- assign lab_number = site.data.syllabus.starting_lab_number | default: 1 -%} -->
-{%- assign homework_number = site.data.syllabus.starting_homework_number | default: 1 -%}
-{%- assign homework_due_number = site.data.syllabus.starting_homework_number | default: 1 -%}
+<!-- {%- assign homework_number = site.data.syllabus.starting_homework_number | default: 1 -%} -->
+{%- assign exam_prep_number = site.data.syllabus.starting_exam_prep_number | default: 1 -%}
+<!-- {%- assign homework_due_number = site.data.syllabus.starting_homework_number | default: 1 -%} -->
 <!-- {%- assign lab_due_number = site.data.syllabus.starting_lab_number | default: 1 -%} -->
 
 
@@ -89,34 +106,26 @@
           </td>
 
           <td style="width:{{ site.data.syllabus.col2_width }}; vertical-align: top;">
-            {%- comment -%} --- EXTRA DAYS / EVENTS LOGIC --- {%- endcomment -%}
+            {%- comment -%} --- COL2: EXTRA DAYS / EVENTS (lecture, discussion, catch-up, exam prep, exam review) --- {%- endcomment -%}
             {%- assign current_date = day | date: "%Y-%m-%d" -%}
 
             {%- for extra in site.data.syllabus.extra_days_col2 -%}
-            {%- comment -%} Convert the YAML date to a string to match current_date {%- endcomment -%}
             {%- assign extra_date_string = extra.date | date: "%Y-%m-%d" -%}
 
             {%- if extra_date_string == current_date -%}
+              {%- unless extra.label == "homework-released" or extra.label == "homework-due" or extra.label == "lab-released" or extra.label == "lab-due" -%}
                 <div class="syllabus-item" style="margin-bottom: 8px;">
                 {%- if extra.label and extra.label != "none" -%}
-                    {%- if extra.label == "homework-released" -%}
-                        <strong class="label label-homework">Homework Released</strong>
-                    {%- elsif extra.label == "homework-due" -%}
-                        <strong class="label label-homework-due">Homework Due</strong>
-                    {%- elsif extra.label == "lab-released" -%}
-                        <strong class="label label-lab">Lab Released</strong>
+                    <strong class="label label-{{ extra.label }}">
+                    {%- if extra.label == "exam-review" -%}
+                      Exam Review
+                    {%- elsif extra.label == "exam-prep" -%}
+                      Exam Prep
                     {%- else -%}
-                        <strong class="label label-{{ extra.label }}">
-                        {%- assign label_parts = extra.label | split: "-" -%}
-                        {%- if extra.label == "exam-review" -%}
-                          Exam Review
-                        {%- elsif extra.label == "exam-prep" -%}
-                          Exam Prep
-                        {%- else -%}
-                          {{ label_parts[0] | capitalize }}
-                        {%- endif -%}
-                        </strong>
+                      {%- assign label_parts = extra.label | split: "-" -%}
+                      {{ label_parts[0] | capitalize }}
                     {%- endif -%}
+                    </strong>
                 {%- endif -%}
 
                 <span>
@@ -127,6 +136,7 @@
                     {%- endif -%}
                 </span>
                 </div>
+              {%- endunless -%}
             {%- endif -%}
             {%- endfor -%}
 
@@ -188,6 +198,34 @@
 
                     {%- comment -%} 5. ALWAYS INCREMENT INDEX TO MOVE TO NEXT YAML ENTRY {%- endcomment -%}
                     {%- assign lecture_index = lecture_index | plus: 1 -%}
+                {%- endif -%}
+            {%- endif -%}
+
+            {%- comment -%} --- READINGS LOGIC (Consolidated & Inline) --- {%- endcomment -%}
+            {%- if site.data.syllabus.class_days contains day_of_week -%}
+                {%- if lec_entry.readings -%}
+                    <div class="syllabus-item" style="margin-bottom: 4px;">
+                        <strong class="label label-reading">Reading</strong>
+                        
+                        <span class="readings-list">
+                        {%- for r in lec_entry.readings -%}
+                            {%- if r.links -%}
+                                {%- comment -%} Handle multiple links list (e.g., Python, Data Types) {%- endcomment -%}
+                                {%- for item in r.links -%}
+                                    <a href="{{ item.url }}">{{ item.text }}</a>{% unless forloop.last %}, {% endunless %}
+                                {%- endfor -%}
+                            {%- elsif r.link -%}
+                                {%- comment -%} Handle single title/link pair {%- endcomment -%}
+                                <a href="{{ r.link }}">{{ r.title }}</a>
+                            {%- else -%}
+                                <span>{{ r.title }}</span>
+                            {%- endif -%}
+                            
+                            {%- comment -%} Add a comma between different reading entries in the YAML list {%- endcomment -%}
+                            {%- unless forloop.last -%}, {% endunless -%}
+                        {%- endfor -%}
+                        </span>
+                    </div>
                 {%- endif -%}
             {%- endif -%}
 
@@ -293,6 +331,89 @@
                 {%- endif -%}
             {%- endif -%}
 
+            {%- comment -%} --- EXAM PREP LOGIC (Date-Driven, Slug-Based) --- {%- endcomment -%}
+            {%- for ep in site.data.exam_prep.exam_prep -%}
+                {%- assign ep_date = ep.date | date: "%Y-%m-%d" -%}
+
+                {%- if ep_date == current_date -%}
+                    {%- unless ep.skip -%}
+                        <div class="syllabus-item" style="margin-bottom: 4px;">
+                            {%- assign ep_obj = nil -%}
+
+                            {%- if ep.slug -%}
+                                {%- assign target_slug = ep.slug | append: "" -%}
+                                {%- for e in site.exam_prep -%}
+                                    {%- if e.slug == target_slug -%}
+                                        {%- assign ep_obj = e -%}
+                                        {%- break -%}
+                                    {%- endif -%}
+                                {%- endfor -%}
+                            {%- endif -%}
+
+                            {%- assign display_title = ep.title | default: ep_obj.title -%}
+
+                            {%- if ep.link -%}
+                                {%- assign display_link = ep.link -%}
+                            {%- elsif ep_obj -%}
+                                {%- assign display_link = ep_obj.url | relative_url -%}
+                            {%- else -%}
+                                {%- assign display_link = nil -%}
+                            {%- endif -%}
+
+                            {%- unless ep.nonumber -%}
+                                <strong class="label label-exam-prep">Exam Prep {{ exam_prep_number }}</strong>
+                                {%- assign exam_prep_number = exam_prep_number | plus: 1 -%}
+                            {%- endunless -%}
+
+                            {%- if display_link -%}
+                                <a href="{{ display_link }}">{{ display_title }}</a>
+                            {%- else -%}
+                                <span>{{ display_title }}</span>
+                            {%- endif -%}
+                        </div>
+                    {%- endunless -%}
+                {%- endif -%}
+            {%- endfor -%}
+          </td>
+
+          <td style="width:{{ site.data.syllabus.col3_width }}; vertical-align: top;">
+            {%- comment -%} --- COL3: EXTRA DAYS / EVENTS (exam, homework, lab released/due) --- {%- endcomment -%}
+
+            {%- for extra in site.data.syllabus.extra_days_col2 -%}
+            {%- assign extra_date_string = extra.date | date: "%Y-%m-%d" -%}
+
+            {%- if extra_date_string == current_date -%}
+              {%- if extra.label == "homework-released" or extra.label == "homework-due" or extra.label == "lab-released" or extra.label == "lab-due" -%}
+                <div class="syllabus-item" style="margin-bottom: 8px;">
+                {%- if extra.label and extra.label != "none" -%}
+                    {%- if extra.label == "homework-released" -%}
+                        <strong class="label label-homework">Homework {{ extra.label-number }} Released</strong>
+                    {%- elsif extra.label == "homework-due" -%}
+                        <strong class="label label-homework-due">Homework {{ extra.label-number }} Due</strong>
+                    {%- elsif extra.label == "lab-released" -%}
+                        <strong class="label label-lab">Lab {{ extra.label-number }} Released</strong>
+                    {%- elsif extra.label == "lab-due" -%}
+                        <strong class="label label-lab-due">Lab {{ extra.label-number }} Due</strong>
+                    {%- else -%}
+                        <strong class="label label-{{ extra.label }}">
+                        {%- assign label_parts = extra.label | split: "-" -%}
+                        {{ label_parts[0] | capitalize }}
+                        </strong>
+                    {%- endif -%}
+                {%- endif -%}
+
+                <span>
+                    {%- if extra.link -%}
+                    <a href="{{ extra.link }}">{{ extra.title }}</a>
+                    {%- else -%}
+                    {{ extra.title }}
+                    {%- endif -%}
+                </span>
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+            {%- endfor -%}
+
             {%- comment -%} --- LAB LOGIC --- {%- endcomment -%}
             {%- if site.data.syllabus.lab_days contains day_of_week -%}
                 {%- assign lab_entry = site.data.labs.labs[lab_index] -%}
@@ -326,8 +447,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless lab_entry.nonumber -%}
-                                <strong class="label label-lab">Lab Released</strong>
-                                <!-- {%- assign lab_number = lab_number | plus: 1 -%} -->
+                                <strong class="label label-lab">Lab {{ lab_entry.label-number }} Released</strong>
                             {%- endunless -%}
 
                             {%- comment -%} 4. RENDER LINK OR TITLE {%- endcomment -%}
@@ -377,8 +497,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless lab_due_entry.nonumber -%}
-                                <strong class="label label-lab-due">Lab Due</strong>
-                                <!-- {%- assign lab_due_number = lab_due_number | plus: 1 -%} -->
+                                <strong class="label label-lab-due">Lab {{ lab_due_entry.label-number }} Due</strong>
                             {%- endunless -%}
 
                             {%- comment -%} 4. RENDER LINK OR TITLE {%- endcomment -%}
@@ -428,8 +547,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless hw_entry.nonumber -%}
-                                <strong class="label label-homework">Homework Released</strong>
-                                {%- assign homework_number = homework_number | plus: 1 -%}
+                                <strong class="label label-homework">Homework {{ hw_entry.label-number }} Released</strong>
                             {%- endunless -%}
 
                             {%- comment -%} 4. RENDER LINK OR TITLE {%- endcomment -%}
@@ -479,8 +597,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless hw_due_entry.nonumber -%}
-                                <strong class="label label-homework-due">Homework Due</strong>
-                                {%- assign homework_due_number = homework_due_number | plus: 1 -%}
+                                <strong class="label label-homework-due">Homework {{ hw_due_entry.label-number }} Due</strong>
                             {%- endunless -%}
 
                             {%- comment -%} 4. RENDER LINK OR TITLE {%- endcomment -%}
@@ -497,63 +614,70 @@
                 {%- endif -%}
             {%- endif -%}
 
-            {%- comment -%} --- PROJECT LOGIC (Date-Driven) --- {%- endcomment -%}
+            {%- comment -%} --- PROJECT RELEASED LOGIC (Date-Driven) --- {%- endcomment -%}
             {%- assign current_date = day | date: "%Y-%m-%d" -%}
 
             {%- for project in site.data.projects.projects -%}
             {%- assign project_date = project.date | date: "%Y-%m-%d" -%}
             
             {%- if project_date == current_date -%}
-                <div class="syllabus-item" style="margin-bottom: 8px;">
-                {%- if project.link -%}
-                    <strong class="label label-project">Project Released {{project.label-number}}</strong>
-                {%- else -%}
-                    <strong class="label label-project">Project {{project.label-number}}</strong>
-                {%- endif -%}
-                {%- if project.link -%}
-                    <a href="{{ project.link }}">{{ project.title }}</a>
-                {%- else -%}
-                    {{ project.title }}
-                {%- endif -%}
+                {%- unless project.skip -%}
+                <div class="syllabus-item" style="margin-bottom: 4px;">
+                    <strong class="label label-project">Project {{project.label-number}} Released</strong>
+                    {%- if project.link -%}
+                        <a href="{{ project.link }}">{{ project.title }}</a>
+                    {%- else -%}
+                        {{ project.title }}
+                    {%- endif -%}
                 </div>
+                {%- endunless -%}
             {%- endif -%}
             {%- endfor -%}
-          </td>
 
-          <td style="width:{{ site.data.syllabus.col3_width }}; vertical-align: top;">
-            {%- comment -%} --- READINGS LOGIC (Consolidated & Inline) --- {%- endcomment -%}
-            {%- if site.data.syllabus.class_days contains day_of_week -%}
-                {%- if lec_entry.readings -%}
-                    <div class="syllabus-item" style="margin-bottom: 4px;">
-                        <strong class="label label-reading">Reading</strong>
-                        
-                        <span class="readings-list">
-                        {%- for r in lec_entry.readings -%}
-                            {%- if r.links -%}
-                                {%- comment -%} Handle multiple links list (e.g., Python, Data Types) {%- endcomment -%}
-                                {%- for item in r.links -%}
-                                    <a href="{{ item.url }}">{{ item.text }}</a>{% unless forloop.last %}, {% endunless %}
-                                {%- endfor -%}
-                            {%- elsif r.link -%}
-                                {%- comment -%} Handle single title/link pair {%- endcomment -%}
-                                <a href="{{ r.link }}">{{ r.title }}</a>
-                            {%- else -%}
-                                <span>{{ r.title }}</span>
-                            {%- endif -%}
-                            
-                            {%- comment -%} Add a comma between different reading entries in the YAML list {%- endcomment -%}
-                            {%- unless forloop.last -%}, {% endunless -%}
-                        {%- endfor -%}
-                        </span>
-                    </div>
-                {%- endif -%}
+            {%- comment -%} --- PROJECT DUE LOGIC (Date-Driven) --- {%- endcomment -%}
+
+            {%- for project_due in site.data.projects-due.projects-due -%}
+            {%- assign project_due_date = project_due.date | date: "%Y-%m-%d" -%}
+
+            {%- if project_due_date == current_date -%}
+                {%- unless project_due.skip -%}
+                <div class="syllabus-item" style="margin-bottom: 4px;">
+                    <strong class="label label-project-due">Project {{project_due.label-number}} Due</strong>
+                    {%- if project_due.link -%}
+                        <a href="{{ project_due.link }}">{{ project_due.title }}</a>
+                    {%- else -%}
+                        {{ project_due.title }}
+                    {%- endif -%}
+                </div>
+                {%- endunless -%}
             {%- endif -%}
+            {%- endfor -%}
 
             {%- comment -%} --- EXTRA LINKS LOGIC --- {%- endcomment -%}
             {%- for extra in site.data.syllabus.extra_links_col3 -%}
                 {%- assign extra_date = extra.date | date: "%Y-%m-%d" -%}
                 {%- if extra_date == current_date -%}
                     <div class="syllabus-item" style="margin-bottom: 8px;">
+                        {%- if extra.label and extra.label != "none" -%}
+                            {%- if extra.label == "homework-released" -%}
+                                <strong class="label label-homework">Homework {{ extra.label-number }} Released</strong>
+                            {%- elsif extra.label == "homework-due" -%}
+                                <strong class="label label-homework-due">Homework {{ extra.label-number }} Due</strong>
+                            {%- elsif extra.label == "lab-released" -%}
+                                <strong class="label label-lab">Lab {{ extra.label-number }} Released</strong>
+                            {%- elsif extra.label == "lab-due" -%}
+                                <strong class="label label-lab-due">Lab {{ extra.label-number }} Due</strong>
+                            {%- elsif extra.label == "project-released" -%}
+                                <strong class="label label-project">Project {{ extra.label-number }} Released</strong>
+                            {%- elsif extra.label == "project-due" -%}
+                                <strong class="label label-project-due">Project {{ extra.label-number }} Due</strong>
+                            {%- else -%}
+                                <strong class="label label-{{ extra.label }}">
+                                {%- assign label_parts = extra.label | split: "-" -%}
+                                {{ label_parts[0] | capitalize }}
+                                </strong>
+                            {%- endif -%}
+                        {%- endif -%}
                         {%- if extra.link -%}
                             <a href="{{ extra.link }}">{{ extra.title }}</a>
                         {%- else -%}

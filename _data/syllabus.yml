@@ -14,13 +14,19 @@ extra_days_col2:
     title: "Midterm 1 Review"
     label: exam-review
   - date: 2026-03-09
-    title: "Midterm 1 (<a href=\"./syllabus/#exams\">CBTF</a>, Monday-Thursday)"
+    title: "Midterm 1 Window Opens (<a href=\"./syllabus/#exams\">CBTF</a>)"
+    label: exam
+  - date: 2026-03-12
+    title: "Midterm 1 Window Closes (<a href=\"./syllabus/#exams\">CBTF</a>)"
     label: exam
   - date: 2026-04-03
     title: "Midterm 2 Review"
     label: exam-review
   - date: 2026-04-06 
-    title: "Midterm 2 (<a href=\"./syllabus/#exams\">CBTF</a>, Monday-Thursday)"
+    title: "Midterm 2 Window Opens (<a href=\"./syllabus/#exams\">CBTF</a>)"
+    label: exam
+  - date: 2026-04-10 
+    title: "Midterm 2 Window Closes (<a href=\"./syllabus/#exams\">CBTF</a>)"
     label: exam
   - date: 2026-04-24
     title: "Midterm 3 Review"
@@ -31,76 +37,50 @@ extra_days_col2:
   - date: 2026-05-14
     title: "Final (<a href=\"./syllabus/#exams\">Paper</a>, 11:30 AM - 2:30 PM)"
     label: exam
-  - date: 2026-01-21
-    title: "Lab 1: Prerequisite Coding"
-    label: lab-released
-    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab01%2Flab01.ipynb
-  - date: 2026-01-21
-    title: "Homework 1: Prerequisite Math"
-    label: homework-released
-    link: https://drive.google.com/file/d/1bNTww2i7EKafzpOxJBJq2Uzmv5hly2GC/view?usp=sharing
-  - date: 2026-01-21
-    title: "Homework 1: Coding"
-    label: homework-released
-    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw01%2Fhw01.ipynb
-  - date: 2026-02-02
-    title: "Exam Prep 1: Pandas"
-    label: exam-prep
-    link: https://drive.google.com/file/d/1JMLWsCkTB0bj2Iv2u4qXVC14wJr3fSB-/view?usp=sharing
-  - date: 2026-02-09
-    title: "Exam Prep 2: Pandas and Regex"
-    label: exam-prep
-    link: https://drive.google.com/file/d/1eL3kvnoKUL-CEvvg76BmAENGC-42MOAl/view?usp=sharing
-  - date: 2026-02-16
-    title: "Exam Prep 3: Distributions"
-    label: exam-prep
-    link: https://drive.google.com/file/d/1d6igewcjML327eBnd9kGjjNDFJ5GvaNt/view?usp=sharing
-  - date: 2026-02-23
-    title: "Exam Prep 4: Transformations, Sampling, & SLR"
-    label: exam-prep
-    link: https://drive.google.com/file/d/1EXpT_cC-AlhCIlmbcI--NUhOfTYoLibI/view?usp=sharing
   - date: 2026-04-27
     title: "PCA and Clustering (Recorded)"
     label: discussion
-  - date: 2026-02-20
-    title: "Homework 4: Visualization"
-    label: homework-released
-    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw04%2Fhw04.ipynb
-  - date: 2026-03-01
-    title: "Homework 4: Visualization"
-    label: homework-due
 
 
 # The dates used in extra_links_col3 below must already be included on the calendar 
 # Use this to provide extra links in the third (reading) column
 extra_links_col3:
-  - date: 2026-02-02
-    title: "Solutions"
-    link: https://drive.google.com/file/d/1eWQc2WyvtZxe2QVYeUcZeMMurQi0j9je/view?usp=sharing
-  - date: 2026-02-02
-    title: "Walkthrough"
-    link: https://www.youtube.com/watch?v=Y2c1Fk_gJzI&list=PLQCcNQgUcDfp9alGSVc_anQKPSLA5H2S_&index=3
-  - date: 2026-02-09
-    title: "Solutions"
-    link: https://drive.google.com/file/d/1iGpIgMBzCra_QAJjz6VCxWjqC0ndpoe8/view?usp=sharing
-  - date: 2026-02-09
-    title: "Walkthrough"
-    link: https://www.youtube.com/watch?v=74To0uQJ3uE&list=PLQCcNQgUcDfp9alGSVc_anQKPSLA5H2S_&index=2
-  - date: 2026-02-16
-    title: "Solutions"
-    link: https://drive.google.com/file/d/1EmgtZ2lVJD2WqgTa693NC6ILbwo66VvQ/view?usp=sharing
-  - date: 2026-02-16
-    title: "Walkthrough"
-    link: https://www.youtube.com/watch?v=0GiW-AY8Jts&list=PLQCcNQgUcDfp9alGSVc_anQKPSLA5H2S_&index=3
-  - date: 2026-02-23
-    title: "Solutions"
-    link: https://drive.google.com/file/d/1ixTaHqtNd-SwARRBfsYY68B40XMFZv6I/view?usp=sharing
-  - date: 2026-02-23
-    title: "Walkthrough"
-    link: https://www.youtube.com/watch?v=KVUvj5yAXt8&list=PLQCcNQgUcDfp9alGSVc_anQKPSLA5H2S_&index=4
-  # - date: 2026-01-28
-  #   title: Mini-Lecture
-  #   link: https://youtu.be/qXR-x19KT5w
+  - date: 2026-01-21
+    title: "Prerequisite Coding"
+    label: lab-released
+    label-number: 1
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab01%2Flab01.ipynb
+  - date: 2026-01-21
+    title: "Prerequisite Math"
+    label: homework-released
+    label-number: 1
+    link: https://drive.google.com/file/d/1bNTww2i7EKafzpOxJBJq2Uzmv5hly2GC/view?usp=sharing
+  - date: 2026-01-21
+    title: "Coding"
+    label: homework-released
+    label-number: 1
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw01%2Fhw01.ipynb
+  - date: 2026-02-20
+    title: "Visualization"
+    label: homework-released
+    label-number: 4
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw04%2Fhw04.ipynb
+  - date: 2026-03-01
+    title: "Visualization"
+    label: homework-due
+    label-number: 4
+  - date: 2026-04-13
+    title: "Probability"
+    label: homework-due
+    label-number: 6
+  - date: 2026-04-13
+    title: "Probability"
+    label: lab-due
+    label-number: 8
+  - date: 2026-04-27
+    title: "PCA and Clustering"
+    label: lab-due
+    label-number: 11
 
 # The days of the week we have class on. Ranges from Sunday = 0 and Saturday = 6.
 # For example, for a semester with Tu/Th lectures, put ['2', '4'].
@@ -122,6 +102,7 @@ hw_due_days: ['5']
 starting_lecture_number: '1'
 starting_discussion_number: '1'
 starting_catch_up_number: '1'
+starting_exam_prep_number: '1'
 starting_homework_number: '1'
 starting_lab_number: '1'
 starting_project_number: '1'
@@ -131,5 +112,5 @@ starting_week_number: '1'
 
 # Fefine the width of each column in the schedule
 date_width: "12%"
-col2_width: "55%"
-col3_width: "33%" 
+col2_width: "44%"
+col3_width: "44%" 
