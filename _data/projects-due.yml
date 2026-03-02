@@ -1,5 +1,6 @@
 # treat this YAML similar to _data/projects.yml
 # each entry requires title, date, and label-number
+# link: optional; hyperlinks the title to the assignment URL (same as released)
 # skip: true will omit the project due date from the schedule entirely
 projects-due:
   - title: "Housing I"

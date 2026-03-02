@@ -1,18 +1,25 @@
 # treat this YAML similar to _data/labs.yml
+# link: optional; hyperlinks the title to the assignment URL (same as released)
 labs-due:
   - skip: true
   - title: "Prerequisite Coding"
     label-number: 1
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab01%2Flab01.ipynb
   - title: "Pandas"
     label-number: 2A
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab02A%2Flab02A.ipynb
   - title: "Data Cleaning, EDA"
     label-number: 2B
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab02B%2Flab02B.ipynb
   - title: "Regex, EDA"
     label-number: 3
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab03%2Flab03.ipynb
   - title: "Visualization, Transformations, and KDEs"
     label-number: 4
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab04%2Flab04.ipynb
   - title: "Modeling, Loss, Summary Stats, and OLS"
     label-number: 5
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab05%2Flab05.ipynb
   - skip: true
   - title: "Gradient Descent, sklearn"
     label-number: 6

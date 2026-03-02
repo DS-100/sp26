@@ -69,6 +69,7 @@ extra_links_col3:
     title: "Visualization"
     label: homework-due
     label-number: 4
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw04%2Fhw04.ipynb
   - date: 2026-04-13
     title: "Probability"
     label: homework-due
