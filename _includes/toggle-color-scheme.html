@@ -37,18 +37,19 @@
       return; 
     }
 
-    const toggleSchemeBtn = document.querySelector('.js-toggle-dark-mode');
-    const unsetColorScheme = document.querySelector('.js-unset-color-scheme');
+    const toggleSchemeBtns = document.querySelectorAll('.js-toggle-dark-mode');
+    const unsetColorSchemeBtns = document.querySelectorAll('.js-unset-color-scheme');
 
     function updateButtonUI(theme) {
-      if (!toggleSchemeBtn) return;
-      if (theme === 'dark') {
-        toggleSchemeBtn.textContent = '🔆 Light Mode';
-        toggleSchemeBtn.ariaLabel = 'Switch to Light Mode';
-      } else {
-        toggleSchemeBtn.textContent = '🌙 Dark Mode';
-        toggleSchemeBtn.ariaLabel = 'Switch to Dark Mode';
-      }
+      toggleSchemeBtns.forEach(function(btn) {
+        if (theme === 'dark') {
+          btn.textContent = '🔆 Light Mode';
+          btn.ariaLabel = 'Switch to Light Mode';
+        } else {
+          btn.textContent = '🌙 Dark Mode';
+          btn.ariaLabel = 'Switch to Dark Mode';
+        }
+      });
     }
 
     // Apply theme before button listeners
@@ -60,37 +61,28 @@
     document.documentElement.setAttribute('data-theme', initialTheme);
     updateButtonUI(initialTheme);
 
-    // Toggle Logic
-    jtd.addEvent(toggleSchemeBtn, 'click', function() {
+    // Toggle Logic (attach to all instances - sidebar + mobile footer)
+    function handleToggle() {
       const current = document.documentElement.getAttribute('data-theme') || jtd.getTheme();
       const nextTheme = (current === 'dark') ? 'light' : 'dark';
-
-      console.log("Toggling from", current, "to", nextTheme);
 
       jtd.setTheme(nextTheme);
       localStorage.setItem('jtd-theme', nextTheme);
       document.documentElement.setAttribute('data-theme', nextTheme);
       updateButtonUI(nextTheme);
-    });
+    }
+    toggleSchemeBtns.forEach(function(btn) { jtd.addEvent(btn, 'click', handleToggle); });
 
     // Reset Logic (Sync with system preference)
-    if (unsetColorScheme) {
-      jtd.addEvent(unsetColorScheme, 'click', function() {
-        // Clear the manual override
-        localStorage.removeItem('jtd-theme');
-
-        // Determine what the system wants
-        const systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const newTheme = systemDark ? 'dark' : 'light';
-
-        // Apply it immediately without reloading
-        jtd.setTheme(newTheme);
-        document.documentElement.setAttribute('data-theme', newTheme);
-        updateButtonUI(newTheme);
-        
-        console.log("Reset to system preference:", newTheme);
-      });
+    function handleUnset() {
+      localStorage.removeItem('jtd-theme');
+      const systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const newTheme = systemDark ? 'dark' : 'light';
+      jtd.setTheme(newTheme);
+      document.documentElement.setAttribute('data-theme', newTheme);
+      updateButtonUI(newTheme);
     }
+    unsetColorSchemeBtns.forEach(function(btn) { jtd.addEvent(btn, 'click', handleUnset); });
   });
 })();
 </script>
