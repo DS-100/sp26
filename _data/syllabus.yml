@@ -10,10 +10,6 @@ end_date: 2026-05-15
 # Any other days you want to appear on the calendar (e.g. for one-time events
 # like exams or bonus lectures) can be listed here. These appear in the second column.
 extra_days_col2:
-  - date: 2026-03-02
-    title: "Ordinary Least Squares II, Gradient Descent I"
-    label: lecture
-    link: ./lectures/13
   - date: 2026-03-06
     title: "Midterm 1 Review"
     label: exam-review
@@ -74,9 +70,6 @@ extra_links_col3:
     label: homework-due
     label-number: 4
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw04%2Fhw04.ipynb
-  - date: 2026-03-02
-    title: "Note 13 (Fall 2025)"
-    link: https://ds100.org/course-notes/ols/
   - date: 2026-04-13
     title: "Probability"
     label: homework-due
