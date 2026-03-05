@@ -31,7 +31,7 @@ Textbook readings are purely optional, and may contain material that is not in s
 ## Exam Resources
 
 {: .important }
-> All exam resources can now be found in our dedicated [**Exams page**]({{ "/pastexams" | relative_url }}), where you can view past exams by term and by topic.
+> All exam resources can now be found in our dedicated [**Past Exams page**]({{ "/pastexams" | relative_url }}), where you can view past exams by term and by topic.
 
 
 <a name = 'course_website'></a>

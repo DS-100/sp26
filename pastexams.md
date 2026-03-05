@@ -5,7 +5,7 @@ nav_order: 5
 description: Past exams organized by topic for targeted exam preparation.
 ---
 
-# Exam Resources
+# Past Exams
 {:.no_toc}
 
 Use the [**Past Exams by Term**](#past-exams-by-term) section to see an archive of all Data 100 exams since its inception. Use the [**Past Exams by Topic**](#past-exams-by-topic) section for focused practice on specific topics. Both tables list relevant links to the exam and solutions.
