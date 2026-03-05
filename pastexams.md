@@ -8,7 +8,7 @@ description: Past exams organized by topic for targeted exam preparation.
 # Exam Resources
 {:.no_toc}
 
-For exam practice on specific topics, use the **Past Exams by Topic** section below. Each topic lists relevant exam questions with links to the exam and solutions.
+Use the [**Past Exams by Term**](#past-exams-by-term) section to see an archive of all Data 100 exams since its inception. Use the [**Past Exams by Topic**](#past-exams-by-topic) section for focused practice on specific topics. Both tables list relevant links to the exam and solutions.
 
 {: .important }
 > Our past exams have been annotated using our [Data 100: Past Exam Common Questions](https://docs.google.com/document/d/e/2PACX-1vQm6iUDd-S2reyCNVHNgHKQTr7AqBQTbTEVew2POSvSAQLdpSPJb1OlYWsQ5wuFkVf1yHSVGXcta4Tv/pub){:target="_blank"} document, which curates common exam-related questions we've seen on Ed over the past couple semesters and corresponding staff responses. This page also "webifies" our [Practice Problems by Topic](https://docs.google.com/document/d/1jS12lDvFtYiufBPmNPfGDAoJ7blsekDLlCZz7G-lscQ/edit?usp=sharing){:target="_blank"} document, which is helpful for finding past exam questions pertaining to specific topics.
@@ -17,7 +17,10 @@ Jump to:
 * TOC
 {:toc}
 
-## Past Exams By Year
+## Reference Sheet
+Here were Fall 2025's reference sheets for [Midterm 1]({{ "/assets/exams/fa25/fa25_mt1_reference_sheet.pdf" | relative_url }}), [Midterm 2]({{ "/assets/exams/fa25/fa25_mt2_reference_sheet.pdf" | relative_url }}), and [Final]({{ "/assets/exams/fa25/fa25_final_reference_sheet.pdf" | relative_url }}).
+
+## Past Exams By Term
 
 | Semester | Midterm 1 | Midterm 2 | Midterm 3 | Final | Reference Sheet |
 | :-- | :-- | :-- | :-- | :-- | :-- |
@@ -515,7 +518,7 @@ Jump to:
 | Spring 2017 Final | [Q23-24 (Pages 16-17), Q29-32 (Pages 20-21)]({{ "/assets/exams/sp17/sp17final.pdf" | relative_url }}) | [Solutions]({{ "/assets/exams/sp17/sp17finalsol.pdf" | relative_url }}) |
 {: .exam-topic-table }
 
-### Decision Trees [No longer in Scope]
+### Decision Trees [no longer in scope]
 
 | Exam | Questions | Solutions |
 | :-- | :-- | :-- |
