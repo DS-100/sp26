@@ -70,11 +70,11 @@ lectures:
   - slug: "13"
     readings:
       - title: Note 13
-        link: https://ds100.org/course-notes/ols/
+        link: https://ds100.org/course-notes/gradient-descent/
   - slug: "14"
     readings:
-      - title: Note 14 (Fall 2025)
-        link: https://ds100.org/course-notes/gradient-descent/
+      - title: Note 14
+        link: https://ds100.org/course-notes/feature-engineering/
   - slug: "15"
   - slug: "16"
   - slug: "17"
