@@ -72,6 +72,9 @@ lectures:
       - title: Note 13
         link: https://ds100.org/course-notes/ols/
   - slug: "14"
+    readings:
+      - title: Note 14 (Fall 2025)
+        link: https://ds100.org/course-notes/gradient-descent/
   - slug: "15"
   - slug: "16"
   - slug: "17"
