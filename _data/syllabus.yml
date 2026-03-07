@@ -13,6 +13,7 @@ extra_days_col2:
   - date: 2026-03-06
     title: "Midterm 1 Review"
     label: exam-review
+    link: https://edstem.org/us/courses/93833/discussion/7769002
   - date: 2026-03-09
     title: "Midterm 1 Window Opens (<a href=\"./syllabus/#exams\">CBTF</a>)"
     label: exam
