@@ -22,7 +22,7 @@ discussions:
   - slug: "04"
   - slug: "05"
   - slug: "06"
-  - title: "Gradient Descent"
+  - slug: "07"
   - title: "Feature Engineering, Housing"
   - title: "Spring Break"
     nonumber: true
