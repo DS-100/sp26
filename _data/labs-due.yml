@@ -8,10 +8,10 @@ labs-due:
   - title: "Pandas"
     label-number: 2A
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab02A%2Flab02A.ipynb
-  - title: "Data Cleaning, EDA"
+  - title: "Data Cleaning and EDA"
     label-number: 2B
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab02B%2Flab02B.ipynb
-  - title: "Regex, EDA"
+  - title: "Regex and EDA"
     label-number: 3
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab03%2Flab03.ipynb
   - title: "Visualization, Transformations, and KDEs"
@@ -21,8 +21,9 @@ labs-due:
     label-number: 5
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab05%2Flab05.ipynb
   - skip: true
-  - title: "Gradient Descent, sklearn"
+  - title: "Gradient Descent and sklearn"
     label-number: 6
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab06%2Flab06.ipynb
   - skip: true # spring break
   - title: "Model Selection"
     label-number: 7
