@@ -77,8 +77,8 @@ lectures:
         link: https://ds100.org/course-notes/feature-engineering/
   - slug: "15"
     readings:
-      - title: Note 15 (Fall 2025)
-        link: https://ds100.org/course-notes/feature-engineering/
+      - title: Note 15
+        link: https://ds100.org/course-notes/cv-reg/
   - slug: "16"
   - slug: "17"
   - slug: "18"
