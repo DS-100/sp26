@@ -6,8 +6,8 @@
 projects:
   - title: "Housing I"
     date: 2026-03-12
-    # link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
     label-number: A1
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fproj%2FprojA1%2FprojA1.ipynb
   - title: "Housing II"
     date: 2026-03-19
     label-number: A2
