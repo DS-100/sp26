@@ -80,6 +80,9 @@ lectures:
       - title: Note 15
         link: https://ds100.org/course-notes/cv-reg/
   - slug: "16"
+    readings:
+      - title: Note 16 (Fall 2025)
+        link: https://ds100.org/course-notes/case-study-hce/
   - slug: "17"
   - slug: "18"
   - title: "Spring Break"
