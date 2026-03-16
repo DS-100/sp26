@@ -23,7 +23,7 @@ discussions:
   - slug: "05"
   - slug: "06"
   - slug: "07"
-  - title: "Feature Engineering, Housing"
+  - slug: "08"
   - title: "Spring Break"
     nonumber: true
   - title: "Cross-Validation and Regularization"
