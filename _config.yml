@@ -33,7 +33,9 @@ ed_course_id: 93833
 semester: Spring 2026
 
 course_logo_path: assets/branding/panda-logo.png
-logo: assets/branding/panda-logo.png
+# logo: assets/branding/panda-logo.png
+logo: assets/branding/panda-st-pattys-logo.png
+
 # This should be one of eecs, dsus, stat
 course_department: dsus
 class_archive_path: /
