@@ -24,11 +24,6 @@ excluded_elements = [
   '[data-a11y-errors="true"]'
 ]
 
-# skip redirects to avoid race conditions that make tests fail
-excluded_paths = [
-  '/acks/'
-].freeze
-
 # We must call this to ensure the build it up-to-date.
 build_jekyll_site!
 ALL_PAGES = load_sitemap
@@ -50,7 +45,6 @@ RSpec.shared_examples 'a11y tests' do
 end
 
 ALL_PAGES.each do |path|
-  next if excluded_paths.include?(path)
   describe "#{path} is accessible", :js, type: :feature do
     context 'when light mode' do
       before do

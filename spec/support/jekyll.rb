@@ -22,13 +22,24 @@ def load_sitemap
   sitemap_text = File.read('_site/sitemap.xml')
   sitemap_links = sitemap_text.scan(%r{<loc>.+</loc>})
   sitemap_links.filter_map do |link|
-    link = link.gsub("<loc>#{site_config['url']}", '').gsub('</loc>', '')
+    path = link.gsub("<loc>#{site_config['url']}", '').gsub('</loc>', '')
     # Skip non-html pages
     # (FUTURE?) Are there other pages that should be audited for accessibility?
     # (e.g. PDFs, documents. They'd need a different checker.)
-    next unless link.end_with?('.html') || link.end_with?('/')
+    next unless path.end_with?('.html') || path.end_with?('/')
 
-    link
+    relative_file = path.end_with?('/') ? "#{path}index.html" : path
+
+    clean_file_path = relative_file.sub(%r{^/#{site_config['baseurl']}/}, '')
+    full_file_path = File.join('_site', clean_file_path)
+
+    if File.exist?(full_file_path)
+      file_content = File.read(full_file_path)
+      # Skip if it contains a meta refresh or JS location redirect
+      next if file_content.include?('http-equiv="refresh"') || file_content.include?('window.location.href')
+    end
+    
+    path
   end.sort
 end
 
