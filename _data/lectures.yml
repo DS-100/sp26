@@ -84,6 +84,9 @@ lectures:
       - title: Note 16
         link: https://ds100.org/course-notes/case-study-hce/
   - slug: "17"
+    readings:
+      - title: Note 17 (Fall 2025)
+        link: https://ds100.org/course-notes/probability-1/
   - slug: "18"
   - title: "Spring Break"
     nonumber: true
