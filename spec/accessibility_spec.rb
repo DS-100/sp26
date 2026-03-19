@@ -26,7 +26,7 @@ excluded_elements = [
 
 # skip redirects to avoid race conditions that make tests fail
 excluded_paths = [
-  '/acks/index.html',
+  '/acks/'
 ].freeze
 
 # We must call this to ensure the build it up-to-date.
