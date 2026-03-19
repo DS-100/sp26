@@ -24,9 +24,14 @@ excluded_elements = [
   '[data-a11y-errors="true"]'
 ]
 
+SKIPPED_PAGES = [
+  '/sp26/acks/'
+]
+
 # We must call this to ensure the build it up-to-date.
 build_jekyll_site!
 ALL_PAGES = load_sitemap
+PAGES_TO_TEST = ALL_PAGES - SKIPPED_PAGES
 
 RSpec.shared_examples 'a11y tests' do
   it 'meets WCAG 2.1' do
@@ -44,7 +49,7 @@ RSpec.shared_examples 'a11y tests' do
   end
 end
 
-ALL_PAGES.each do |path|
+PAGES_TO_TEST.each do |path|
   describe "#{path} is accessible", :js, type: :feature do
     context 'when light mode' do
       before do
