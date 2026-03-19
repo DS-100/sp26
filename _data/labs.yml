@@ -33,8 +33,9 @@ labs:
   - title: "Gradient Descent and sklearn"
     label-number: 6
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab06%2Flab06.ipynb
-  - title: "Model Selection"
+  - title: "Model Selection, Regularization, and CV"
     label-number: 7
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab07%2Flab07.ipynb
   - skip: true # spring break
   - title: "Probability"
     label-number: 8
