@@ -19,8 +19,8 @@ catch_up:
   - slug: "04" # "Sampling, Modeling, SLR"
   - slug: "05" # Constant Model, Loss, Transformations
   - skip: true #  mt1 review
-  - slug: "06" # OLS, Gradient Descent, Feature Engineering mt1
-  - title: "CV, Regularization, RVs"
+  - slug: "06" # OLS, Gradient Descent, Feature Engineering
+  - slug: "07" # CV, Regularization, RVs
   - title: "Spring Break" # spring break
     nonumber: true
   - skip: true # mt2 review
