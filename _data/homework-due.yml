@@ -18,9 +18,10 @@ homework-due:
   - title: "Modeling and OLS"
     label-number: 5
     link: https://drive.google.com/file/d/1tQKErPqTbrHjVFNMtl_inAsyl5P_YjYu/view?usp=sharing
-  - skip: true # mt1
-  - skip: true # proj a1
+  - skip: true # mt1, proj a1 released
+  - skip: true # proj a1 due
   - skip: true # spring break
-  - skip: true # proj a2
+  - skip: true # proj a2 due
+  - skip: true # mt2
   - title: "SQL"
     label-number: 7 # note hw 6 due monday of this week
