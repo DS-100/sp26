@@ -23,3 +23,15 @@ exam_prep:
     date: 2026-03-02
   - slug: "06"
     date: 2026-03-16
+  - title: "Spring Break"
+    date: 2026-03-23
+    nonumber: true
+  # note for henry: put all remaining exam preps between here
+
+  # and here
+  - title: "RRR Week"
+    date: 2026-05-04
+    nonumber: true
+  - title: "Finals Week"
+    date: 2026-05-11
+    nonumber: true

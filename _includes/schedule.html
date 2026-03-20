@@ -25,14 +25,26 @@
     Gather the days to show on the calendar based on lecture, discussion,
     lab, and homework days defined in _data/syllabus.yml.
   {%- endcomment -%}
-  {%- if site.data.syllabus.class_days contains day_of_week or 
-    site.data.syllabus.discussion_days contains day_of_week or 
-    site.data.syllabus.catch_up_days contains day_of_week or
-    site.data.syllabus.lab_days contains day_of_week or 
-    site.data.syllabus.hw_days contains day_of_week or
-    site.data.syllabus.hw_due_days contains day_of_week or
-    site.data.syllabus.lab_due_days contains days_of_week-%}
+  {%- comment -%}
+    Always include every weekday (Mon-Fri) so the schedule shows blank
+    rows even when there are no lecture/discussion/lab/homework entries.
+  {%- endcomment -%}
+  {%- if day_of_week == '1' or day_of_week == '2' or day_of_week == '3' or day_of_week == '4' or day_of_week == '5' -%}
     {%- assign valid_dates = valid_dates | push: date -%}
+  {%- else -%}
+    {%- comment -%}
+      For non-weekdays (Sat/Sun), keep the previous behavior: only show days
+      that have some configured scheduled content.
+    {%- endcomment -%}
+    {%- if site.data.syllabus.class_days contains day_of_week or 
+      site.data.syllabus.discussion_days contains day_of_week or 
+      site.data.syllabus.catch_up_days contains day_of_week or
+      site.data.syllabus.lab_days contains day_of_week or 
+      site.data.syllabus.hw_days contains day_of_week or
+      site.data.syllabus.hw_due_days contains day_of_week or
+      site.data.syllabus.lab_due_days contains days_of_week-%}
+      {%- assign valid_dates = valid_dates | push: date -%}
+    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 
