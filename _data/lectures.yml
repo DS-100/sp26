@@ -89,7 +89,7 @@ lectures:
         link: https://ds100.org/course-notes/cv-reg/
   - slug: "18"
     readings:
-      - title: Note 18 (Fall 2025)
+      - title: Note 18
         link: https://ds100.org/course-notes/probability-1/ 
   - title: "Spring Break"
     nonumber: true
