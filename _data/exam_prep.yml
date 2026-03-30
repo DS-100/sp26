@@ -26,6 +26,8 @@ exam_prep:
   - title: "Spring Break"
     date: 2026-03-23
     nonumber: true
+  - slug: "07"
+    date: 2026-03-30
   # note for henry: put all remaining exam preps between here
 
   # and here
