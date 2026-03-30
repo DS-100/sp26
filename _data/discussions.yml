@@ -26,7 +26,7 @@ discussions:
   - slug: "08"
   - title: "Spring Break"
     nonumber: true
-  - title: "Cross-Validation and Regularization"
+  - slug: "09"
   - title: "RVs, Bias, and Variance"
   - title: "SQL"
   - title: "Logistic Regression"
