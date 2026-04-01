@@ -263,7 +263,7 @@ We will be following the [EECS departmental policy on Academic Misconduct](https
 
 Not only does such copying count as academic misconduct, but it also circumvents the pedagogical goals of an assignment. You must solve problems with the resources made available in the course. You should never look at or have solutions in your possession from another student or another semester.
 
-While instances of suspected plagiarism are documented during the grading process, the instructors do not address suspected plagiarism until the end of the semester. In other words, if you plagiarize an assignment, but the course staff does not contact you about suspected plagiarism shortly after your grade on the assignment is released, you are not "in the clear".
+<!-- While instances of suspected plagiarism are documented during the grading process, the instructors do not address suspected plagiarism until the end of the semester. In other words, if you plagiarize an assignment, but the course staff does not contact you about suspected plagiarism shortly after your grade on the assignment is released, you are not "in the clear". -->
 
 Working through challenging problems is a key step in learning. If you have an artificial intelligence (AI) system doing all the hard work for you, you won’t learn. Therefore, we have the following AI policy:
 
