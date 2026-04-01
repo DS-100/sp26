@@ -280,7 +280,9 @@ However, we also know that AI assistants will be a key part of your future, and 
 - “How would I convert columns into separate rows in my dataframe?”
 - “Can you explain why the regular expression r’[a-z]’ only matches one character? Can you give me a few practice regular expression exercises?”
 
-When a grader identifies a suspected inappropriate use of an LLM, it is documented for later review. Instructors do not address these cases until the end of the semester. In other words, if you inappropriately use an LLM, but the course staff does not contact you about your LLM use shortly after your grade on the assignment is released, you are not "in the clear". **If you are unsure whether your use of LLMs is appropriate, contact the course staff.**
+<!-- When a grader identifies a suspected inappropriate use of an LLM, it is documented for later review. Instructors do not address these cases until the end of the semester. In other words, if you inappropriately use an LLM, but the course staff does not contact you about your LLM use shortly after your grade on the assignment is released, you are not "in the clear".  -->
+
+**If you are unsure whether your use of LLMs is appropriate, contact the course staff.**
 
 **Exams:** Cheating on exams is a serious offense. We have methods of detecting cheating on exams – so don’t do it! Students caught cheating on any exam will fail the course.
 
