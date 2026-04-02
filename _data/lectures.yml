@@ -97,7 +97,7 @@ lectures:
     nonumber: true
   - slug: "19"
     readings:
-      - title: Note 19 (Fall 2025)
+      - title: Note 19
         link: https://ds100.org/course-notes/probability-2/
   - slug: "20"
   - slug: "21"
