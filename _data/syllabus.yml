@@ -66,15 +66,26 @@ extra_links_col3:
     label: homework-released
     label-number: 4
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw04%2Fhw04.ipynb
+  - date: 2026-04-02
+    title: "Probability"
+    label: homework-released
+    label-number: 6
+    link: https://drive.google.com/file/d/1Y34ne5n81wi8XViBaxzVGMeeGtOXs-1M/view?usp=sharing
   - date: 2026-03-01
     title: "Visualization"
     label: homework-due
     label-number: 4
     link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw04%2Fhw04.ipynb
   - date: 2026-04-13
+    title: "Coding"
+    label: homework-due
+    label-number: 6
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw06%2Fhw06.ipynb
+  - date: 2026-04-13
     title: "Probability"
     label: homework-due
     label-number: 6
+    link: https://drive.google.com/file/d/1Y34ne5n81wi8XViBaxzVGMeeGtOXs-1M/view?usp=sharing
   - date: 2026-04-13
     title: "Probability"
     label: lab-due

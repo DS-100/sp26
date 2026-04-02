@@ -31,9 +31,11 @@ homework:
   - skip: true # proj A1
   - skip: true # proj A2
   - skip: true # spring break
-  - title: "Probability"
+  - title: "Coding"
     label-number: 6
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw06%2Fhw06.ipynb
   - title: "SQL"
     label-number: 7
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw07%2Fhw07.ipynb
   - skip: true # proj B1
   - skip: true # proj B2
