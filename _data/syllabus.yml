@@ -79,6 +79,7 @@ extra_links_col3:
     title: "Probability"
     label: lab-due
     label-number: 8
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab08%2Flab08.ipynb
   - date: 2026-04-27
     title: "PCA and Clustering"
     label: lab-due
