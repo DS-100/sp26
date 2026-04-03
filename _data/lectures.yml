@@ -100,6 +100,9 @@ lectures:
       - title: Note 19
         link: https://ds100.org/course-notes/probability-2/
   - slug: "20"
+    readings:
+      - title: Note 20 (Fall 2025)
+        link: https://ds100.org/course-notes/inference-causality/
   - slug: "21"
   - slug: "22"
   - slug: "23"
