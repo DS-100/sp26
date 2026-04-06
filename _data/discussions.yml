@@ -27,7 +27,7 @@ discussions:
   - title: "Spring Break"
     nonumber: true
   - slug: "09"
-  - title: "RVs, Bias, and Variance"
+  - slug: "10"
   - title: "SQL"
   - title: "Logistic Regression"
   - skip: true
