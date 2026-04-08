@@ -104,6 +104,9 @@ lectures:
       - title: Note 20
         link: https://ds100.org/course-notes/inference-causality/
   - slug: "21"
+    readings:
+      - title: Note 21
+        link: https://ds100.org/course-notes/sql-i/
   - slug: "22"
   - slug: "23"
   - slug: "24"
