@@ -25,3 +25,4 @@ homework-due:
   - skip: true # mt2
   - title: "SQL"
     label-number: 7 # note hw 6 due monday of this week
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fhw%2Fhw07%2Fhw07.ipynb
