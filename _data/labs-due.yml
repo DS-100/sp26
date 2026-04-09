@@ -31,6 +31,7 @@ labs-due:
   - skip: true # "Lab 8: Probability"
   - title: "SQL"
     label-number: 9
+    link: https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab09%2Flab09.ipynb
   - title: "Logistic Regression"
     label-number: 10
   # - title: "PCA and Clustering"
