@@ -24,8 +24,8 @@ catch_up:
   - title: "Spring Break" # spring break
     nonumber: true
   - skip: true # mt2 review
-  - slug: "08" # Bias-Variance, Bootstrapping, SQL
-  - title: "Logistic Regression"
+  - slug: "08" # Bias-Variance, Inference
+  - title: "SQL, Logistic Regression"
   - skip: true # mt3 review
   - title: "PCA, Clustering"
   - title: "RRR Week" # rrr week
