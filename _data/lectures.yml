@@ -108,6 +108,9 @@ lectures:
       - title: Note 21
         link: https://ds100.org/course-notes/sql-i/
   - slug: "22"
+    readings:
+      - title: Note 22 (Fall 2025)
+        link: https://ds100.org/course-notes/sql-ii/
   - slug: "23"
   - slug: "24"
   - slug: "25"
