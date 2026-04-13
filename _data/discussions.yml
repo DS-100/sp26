@@ -28,7 +28,7 @@ discussions:
     nonumber: true
   - slug: "09"
   - slug: "10"
-  - title: "SQL"
+  - slug: "11"
   - title: "Logistic Regression"
   - skip: true
   - title: "RRR Week"
