@@ -28,6 +28,8 @@ exam_prep:
     nonumber: true
   - slug: "07"
     date: 2026-03-30
+  - slug: "08"
+    date: 2026-04-13
   # note for henry: put all remaining exam preps between here
 
   # and here
