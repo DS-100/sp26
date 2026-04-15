@@ -30,6 +30,8 @@ exam_prep:
     date: 2026-03-30
   - slug: "08"
     date: 2026-04-13
+  - slug: "09"
+    date: 2026-04-20
   # note for henry: put all remaining exam preps between here
 
   # and here

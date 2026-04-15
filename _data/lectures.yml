@@ -112,6 +112,9 @@ lectures:
       - title: Note 22
         link: https://ds100.org/course-notes/sql-ii/
   - slug: "23"
+    readings:
+      - title: Note 23
+        link: https://ds100.org/course-notes/logistic-reg-1/
   - slug: "24"
   - slug: "25"
   - slug: "26"
