@@ -116,6 +116,9 @@ lectures:
       - title: Note 23
         link: https://ds100.org/course-notes/logistic-reg-1/
   - slug: "24"
+    readings:
+      - title: Note 24
+        link: https://ds100.org/course-notes/logistic-reg-2/
   - slug: "25"
   - slug: "26"
   - slug: "27"
