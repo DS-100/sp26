@@ -31,7 +31,7 @@ The purpose of the project is to give students experience in both open-ended dat
 | Milestone 2 | March 18 | EDA | EDA Write-Up + Notebook | Pensive | 10% |
 | Milestone 3 | April 1 | Mandatory Check-In | Progress Report + Meeting Booking | Pensive | 10% |
 | Milestone 4 | April 15 | Project Report First Draft | Final Report Draft Write-Up | Pensive | 20% |
-| Milestone 5 | April 22 | External Peer Review | External Peer Review | Pensive | 7% |
+| Milestone 5 | April 27 | External Peer Review | External Peer Review | Pensive | 7% |
 | Final Submission | May 6 | Final Project Report | Final Project Report + Presentation Video | Project Report Pensive <br> CV Predictions Pensive | 42% |
 | Weekly Internal Peer Reviews | Due along with Milestones 2, 3, 4, and Final Submission | Internal Peer Review | Internal Peer Review | Pensive (Please refer to corresponding link each week) | 6% |
 
