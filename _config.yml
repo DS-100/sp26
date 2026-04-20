@@ -104,6 +104,11 @@ google_calendar:
       text_color: '000'
       class: cal-tea-oh
       icon: fa-mug-hot
+    - suffix: Exam
+      background_color: '991B1B' # dark red; WCAG AA with white (was Assignment/Deadline color)
+      text_color: 'FFFFFF'
+      class: cal-exam
+      icon: fa-school
     - suffix: Instructor Office Hours
       background_color: 'FFC31B' # gold medium
       text_color: '000'
@@ -124,13 +129,8 @@ google_calendar:
       text_color: 'FFFFFF'
       class: cal-disc-section
       icon: fa-person-chalkboard
-    - suffix: Exam
-      background_color: 'FA8072' # salmon red
-      text_color: '000000'
-      class: cal-tutoring
-      icon: fa-school
     - suffix: Deadline
-      background_color: '991B1B' # dark red
+      background_color: 'B54708' # dark orange; ~5.4:1 with white (WCAG AA)
       text_color: 'FFFFFF'
       class: cal-deadline
       icon: fa-calendar-check

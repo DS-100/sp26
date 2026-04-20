@@ -10,17 +10,18 @@ let eventTypeVisibility = {};
 // Display names for toggle buttons (config key -> button label); keys not listed are hidden from toggles
 const TOGGLE_DISPLAY_NAMES = {
   'Lecture': 'Lecture',
-  'Session': 'Catch-Up',
-  'Instructor Office Hours': 'Instructor Office Hours',
-  'Office Hours': 'Office Hours',
   'Section': 'Discussion',
   'Deadline': 'Assignment',
+  'Office Hours': 'Office Hours',
+  'Instructor Office Hours': 'Instructor Office Hours',
+  'Session': 'Catch-Up',
+  'Exam': 'Exam',
   'Other': 'Other',
-  // 'Tutoring Section' and 'Exam' omitted = no toggle button (events still show by default)
+  // 'Tutoring Section' omitted = no toggle button (events still show by default)
 };
 
 // Order of toggle buttons (config keys)
-const TOGGLE_ORDER = ['Lecture', 'Section', 'Deadline', 'Office Hours', 'Instructor Office Hours', 'Session', 'Other'];
+const TOGGLE_ORDER = ['Lecture', 'Section', 'Deadline', 'Office Hours', 'Instructor Office Hours', 'Session', 'Exam', 'Other'];
 
 let extend_event = (event, config) => {
   if (config.background_color) {
