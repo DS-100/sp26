@@ -27,7 +27,7 @@ catch_up:
   - slug: "08" # Bias-Variance, Inference
   - slug: "09" # SQL, Logistic Regression
   - skip: true # mt3 review
-  - title: "PCA, Clustering"
+  - skip: true # catch-up 10 moved up to monday; "PCA, Clustering"
   - title: "RRR Week" # rrr week
     nonumber: true
   - title: "Finals Week" # finals week

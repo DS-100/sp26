@@ -30,7 +30,7 @@ discussions:
   - slug: "10"
   - slug: "11"
   - slug: "12"
-  - skip: true
+  - title: "PCA and Clustering (Recorded)" # - slug: "13"
   - title: "RRR Week"
     nonumber: true
   - title: Finals Week

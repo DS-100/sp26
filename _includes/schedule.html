@@ -133,6 +133,15 @@
                       Exam Review
                     {%- elsif extra.label == "exam-prep" -%}
                       Exam Prep
+                    {%- elsif extra.label == "catch-up" -%}
+                      {%- assign extra_label_number = extra["label-number"] -%}
+                      Catch-Up{% if extra_label_number %} {{ extra_label_number }}{% endif %}
+                    {%- elsif extra.label == "discussion" -%}
+                      {%- assign extra_label_number = extra["label-number"] -%}
+                      Discussion{% if extra_label_number %} {{ extra_label_number }}{% endif %}
+                    {%- elsif extra.label == "lecture" -%}
+                      {%- assign extra_label_number = extra["label-number"] -%}
+                      Lecture{% if extra_label_number %} {{ extra_label_number }}{% endif %}
                     {%- else -%}
                       {%- assign label_parts = extra.label | split: "-" -%}
                       {{ label_parts[0] | capitalize }}
