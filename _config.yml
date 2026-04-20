@@ -129,6 +129,11 @@ google_calendar:
       text_color: '000000'
       class: cal-tutoring
       icon: fa-school
+    - suffix: Deadline
+      background_color: '991B1B' # dark red
+      text_color: 'FFFFFF'
+      class: cal-deadline
+      icon: fa-calendar-check
 
 # Collections for website data
 collections:
