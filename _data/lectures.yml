@@ -120,6 +120,9 @@ lectures:
       - title: Note 24
         link: https://ds100.org/course-notes/logistic-reg-2/
   - slug: "25"
+    readings:
+      - title: Note 25 (Fall 2025)
+        link: https://ds100.org/course-notes/clustering/
   - slug: "26"
   - slug: "27"
   - skip: true # paper midterm 3
