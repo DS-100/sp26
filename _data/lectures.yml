@@ -125,7 +125,7 @@ lectures:
         link: https://ds100.org/course-notes/clustering/
   - slug: "26"
     readings:
-      - title: Note 26 (Fall 2025)
+      - title: Note 26
         link: https://ds100.org/course-notes/pca/
   - slug: "27"
   - skip: true # paper midterm 3
