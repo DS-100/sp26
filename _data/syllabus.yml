@@ -33,6 +33,7 @@ extra_days_col2:
   - date: 2026-04-24
     title: "Midterm 3 Review"
     label: exam-review
+    link: https://edstem.org/us/courses/93833/discussion/7965028
   - date: 2026-04-30
     title: "Midterm 3 (<a href=\"./syllabus/#exams\">Paper</a>)"
     label: exam
