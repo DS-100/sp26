@@ -129,8 +129,7 @@ lectures:
         link: https://ds100.org/course-notes/pca/
   - slug: "27"
   - skip: true # paper midterm 3
-  - title: "RRR Week"
-    nonumber: true
+  - skip: true # final review
   - title: "RRR Week"
     nonumber: true
   - title: "Finals Week"

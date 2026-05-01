@@ -49,6 +49,10 @@ extra_days_col2:
     label: catch-up
     label-number: 10
     link: https://edstem.org/us/courses/93833/discussion/7986951
+  - date: 2026-05-05
+    title: "Final Review"
+    label: exam-review
+    # link: ...
 
 
 # The dates used in extra_links_col3 below must already be included on the calendar 
