@@ -41,9 +41,9 @@ exam_prep:
   # note for henry: put all remaining exam preps between here
 
   # and here
-  - title: "RRR Week"
-    date: 2026-05-04
-    nonumber: true
+  # - title: "RRR Week"
+  #   date: 2026-05-04
+  #   nonumber: true
   - title: "Finals Week"
     date: 2026-05-11
     nonumber: true

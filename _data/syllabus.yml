@@ -52,7 +52,7 @@ extra_days_col2:
   - date: 2026-05-05
     title: "Final Review"
     label: exam-review
-    # link: ...
+    link: https://edstem.org/us/courses/93833/discussion/8031134
 
 
 # The dates used in extra_links_col3 below must already be included on the calendar 
