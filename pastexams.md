@@ -370,7 +370,7 @@ Here were Fall 2025's reference sheets for [Midterm 1]({{ "/assets/exams/fa25/fa
 | Exam | Questions | Solutions |
 | :-- | :-- | :-- |
 | Fall 2025 Midterm 2 | [Q7]({{ "/assets/exams/fa25/fa25_mt2.pdf" | relative_url }}), [*PrairieLearn*](https://us.prairielearn.com/pl/course_instance/207127/assessment/2640483/) | [Solutions]({{ "/assets/exams/fa25/fa25_mt2_sol.pdf" | relative_url }}) |
-| Summer 2025 Final | [Q4d-g]({{ "/assets/exams/su25/su25_final.pdf" | relative_url }}), [*PrairieLearn*](https://us.prairielearn.com/pl/course_instance/207127/assessment/2640877/) | [Solutions]({{ "/assets/exams/su25/su25_final_sol.pdf" | relative_url }}) |
+| Summer 2025 Final | [Q4d-h]({{ "/assets/exams/su25/su25_final.pdf" | relative_url }}), [*PrairieLearn*](https://us.prairielearn.com/pl/course_instance/207127/assessment/2640877/) | [Solutions]({{ "/assets/exams/su25/su25_final_sol.pdf" | relative_url }}) |
 | Spring 2025 Final | [Q3a-c]({{ "/assets/exams/sp25/sp25_final.pdf" | relative_url }}) | [Solutions]({{ "/assets/exams/sp25/sp25_final_sols.pdf" | relative_url }}) |
 | Summer 2020 Final | [Q8]({{ "/assets/exams/su20/su20final.pdf" | relative_url }}) | [Solutions]({{ "/assets/exams/su20/su20finalsol.pdf" | relative_url }}) |
 | Spring 2019 Final | [Q6d (Page 6), Q9 (Page 8)]({{ "/assets/exams/sp19/data100_sp19_final.pdf" | relative_url }}) | [Solutions]({{ "/assets/exams/sp19/data100_sp19_final_sol.pdf" | relative_url }}) |
