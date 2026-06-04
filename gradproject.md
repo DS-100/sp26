@@ -7,6 +7,10 @@ description: Specifications for the grad project for Data 200.
 markdown: kramdown
 
 ---
+
+{: .warning }
+⚠️ This content is archived and retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Graduate Project
 {:.no_toc}
 

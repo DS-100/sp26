@@ -8,6 +8,9 @@ seo:
   name: Data 100
 ---
 
+{: .warning }
+⚠️ This content is archived and retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Data 100: Principles and Techniques of Data Science
 ## UC Berkeley, Spring 2026 
 {: .mb-2 .fs-6 .text-grey-dk-000 style="margin-top: 0;"  }

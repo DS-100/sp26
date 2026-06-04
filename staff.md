@@ -5,6 +5,9 @@ description: A listing of all the course staff members.
 nav_order: 6
 ---
 
+{: .warning }
+⚠️ This content is archived and retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Staff
 
 {: .important }

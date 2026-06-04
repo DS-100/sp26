@@ -5,6 +5,9 @@ nav_order: 4
 description: Past exams and other relevant material to aid you in the course.
 ---
 
+{: .warning }
+⚠️ This content is archived and retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Resources
 {:.no_toc}
 

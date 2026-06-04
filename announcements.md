@@ -5,6 +5,9 @@ nav_exclude: true
 description: A feed containing all of the class announcements.
 ---
 
+{: .warning }
+⚠️ This content is archived and retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Announcements
 
 Announcements are stored in the `_announcements` directory and rendered according to the layout file, `_layouts/announcement.html`.
