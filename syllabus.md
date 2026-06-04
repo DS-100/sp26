@@ -7,6 +7,9 @@ description: >-
 markdown: kramdown
 ---
 
+{: .warning }
+⚠️ This content is archived and retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 
 # Syllabus
 {:.no_toc}

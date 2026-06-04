@@ -5,6 +5,10 @@ nav_exclude: true
 description: Specifications for the CV grad project for Data 200.
 markdown: kramdown
 ---
+
+{: .warning }
+⚠️ This content is archived and retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Graduate Project: Computer Vision
 {:.no_toc}
 

@@ -5,6 +5,9 @@ nav_order: 5
 description: Past exams organized by topic for targeted exam preparation.
 ---
 
+{: .warning }
+⚠️ This content is archived and retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Past Exams
 {:.no_toc}
 
